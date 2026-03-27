@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmet Bütün - Software Architect & Tech Visionary</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Cursor glow -->
+    <div class="cursor-glow" id="cursorGlow"></div>
+
+    <!-- Particle canvas -->
+    <canvas id="particleCanvas"></canvas>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-brand">
+            <img src="logo.png" alt="Ahmet Bütün" class="brand-logo">
+        </div>
+        <div class="nav-links">
+            <a href="#hero" class="nav-link active" data-section="hero" data-i18n="nav.home">Home</a>
+            <a href="#about" class="nav-link" data-section="about" data-i18n="nav.about">About</a>
+            <a href="#products" class="nav-link" data-section="products" data-i18n="nav.products">Products</a>
+            <a href="https://apps.ahmet.sh/" class="nav-link" target="_blank" data-i18n="nav.apps">Apps</a>
+            <a href="#expertise" class="nav-link" data-section="expertise" data-i18n="nav.expertise">Expertise</a>
+            <a href="#contact" class="nav-link" data-section="contact" data-i18n="nav.contact">Contact</a>
+        </div>
+        <div class="nav-actions">
+            <button class="lang-switcher" id="langSwitcher" aria-label="Switch language">
+                <span class="lang-flag" id="langFlag">🇬🇧</span>
+                <span class="lang-code" id="langCode">EN</span>
+            </button>
+            <a href="#contact" class="btn-glow" data-i18n="nav.cta">Let's Talk</a>
+        </div>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
+            <span></span><span></span><span></span>
+        </button>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="#hero" class="mobile-link" data-i18n="nav.home">Home</a>
+        <a href="#about" class="mobile-link" data-i18n="nav.about">About</a>
+        <a href="#products" class="mobile-link" data-i18n="nav.products">Products</a>
+        <a href="#expertise" class="mobile-link" data-i18n="nav.expertise">Expertise</a>
+        <a href="#contact" class="mobile-link" data-i18n="nav.contact">Contact</a>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-bg-grid"></div>
+        <div class="hero-content">
+            <div class="hero-badge animate-on-scroll">
+                <span class="badge-dot"></span>
+                <span data-i18n="hero.badge">Available for consulting & partnerships</span>
+            </div>
+            <h1 class="hero-title animate-on-scroll">
+                <span class="title-line" data-i18n-html="hero.title1">Building the</span>
+                <span class="title-line" data-i18n-html="hero.title2"><span class="gradient-text">Future of Tech</span></span>
+                <span class="title-line" data-i18n-html="hero.title3">Since <span class="gradient-text year-counter" id="yearCounter">2001</span></span>
+            </h1>
+            <p class="hero-subtitle animate-on-scroll" data-i18n-html="hero.subtitle">
+                Software Architect, AI Innovator & Serial Product Builder with <strong>24+ years</strong> of engineering excellence.
+                From enterprise systems to AI-powered consumer apps.
+            </p>
+            <div class="hero-actions animate-on-scroll">
+                <a href="#products" class="btn-primary">
+                    <span data-i18n="hero.cta1">Explore My Work</span>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17l9.2-9.2M17 17V8H8"/></svg>
+                </a>
+                <a href="#about" class="btn-secondary">
+                    <span data-i18n="hero.cta2">My Story</span>
+                </a>
+            </div>
+            <div class="hero-stats animate-on-scroll">
+                <div class="stat-item">
+                    <span class="stat-number" data-target="24">0</span><span class="stat-plus">+</span>
+                    <span class="stat-label" data-i18n="hero.stat1">Years Experience</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="6">0</span>
+                    <span class="stat-label" data-i18n="hero.stat2">Live Products</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="100">0</span><span class="stat-plus">+</span>
+                    <span class="stat-label" data-i18n="hero.stat3">AI Models Integrated</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="10000">0</span><span class="stat-plus">+</span>
+                    <span class="stat-label" data-i18n="hero.stat4">Active Users</span>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <span data-i18n="hero.scroll">Scroll to explore</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-tag" data-i18n="about.tag">// About Me</span>
+                <h2 class="section-title" data-i18n-html="about.title">Crafting Digital <span class="gradient-text">Excellence</span></h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-text animate-on-scroll">
+                    <p class="about-lead" data-i18n-html="about.lead">
+                        I'm <strong>Ahmet Bütün</strong>, a Computer Engineer from Yildiz Technical University with over two decades of passion for building software that matters.
+                    </p>
+                    <p data-i18n-html="about.p1">
+                        As the founder of <strong>Buhane Information Technologies</strong>, I lead a team that transforms ideas into scalable digital solutions. From enterprise-grade platforms to AI-powered consumer applications, I've architected systems that serve thousands of users worldwide.
+                    </p>
+                    <p data-i18n-html="about.p2">
+                        My journey spans from crafting security tools like <strong>Nova W-SPY</strong> to building open-source frameworks like <strong>Crexta</strong>, and now pioneering AI-driven creative tools. I believe technology should empower people to do extraordinary things.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <div class="highlight-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+                            </div>
+                            <div>
+                                <strong data-i18n="about.highlight1_title">Full-Stack Mastery</strong>
+                                <span data-i18n="about.highlight1_desc">From microservices to mobile apps</span>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <div class="highlight-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                            </div>
+                            <div>
+                                <strong data-i18n="about.highlight2_title">AI Pioneer</strong>
+                                <span data-i18n="about.highlight2_desc">100+ AI models across products</span>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <div class="highlight-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                            </div>
+                            <div>
+                                <strong data-i18n="about.highlight3_title">Product Visionary</strong>
+                                <span data-i18n="about.highlight3_desc">6 live products, 10K+ users</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual animate-on-scroll">
+                    <div class="tech-orbit">
+                        <div class="orbit-center">
+                            <span>AB</span>
+                        </div>
+                        <div class="orbit-ring orbit-ring-1">
+                            <div class="orbit-item" style="--angle: 0deg">Java</div>
+                            <div class="orbit-item" style="--angle: 90deg">Kotlin</div>
+                            <div class="orbit-item" style="--angle: 180deg">Spring</div>
+                            <div class="orbit-item" style="--angle: 270deg">AI/ML</div>
+                        </div>
+                        <div class="orbit-ring orbit-ring-2">
+                            <div class="orbit-item" style="--angle: 45deg">PostgreSQL</div>
+                            <div class="orbit-item" style="--angle: 135deg">Firebase</div>
+                            <div class="orbit-item" style="--angle: 225deg">Docker</div>
+                            <div class="orbit-item" style="--angle: 315deg">K8s</div>
+                        </div>
+                        <div class="orbit-ring orbit-ring-3">
+                            <div class="orbit-item" style="--angle: 20deg">React</div>
+                            <div class="orbit-item" style="--angle: 100deg">Swift</div>
+                            <div class="orbit-item" style="--angle: 200deg">Cloud</div>
+                            <div class="orbit-item" style="--angle: 290deg">DevOps</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-tag" data-i18n="products.tag">// Products & Ventures</span>
+                <h2 class="section-title" data-i18n-html="products.title">What I've <span class="gradient-text">Built</span></h2>
+                <p class="section-desc" data-i18n="products.desc">A portfolio of products spanning AI, utilities, wellness, and gaming</p>
+            </div>
+
+            <div class="products-grid">
+                <!-- CosmicMeta -->
+                <div class="product-card product-featured animate-on-scroll" data-tilt>
+                    <div class="product-glow" style="--glow-color: #8B5CF6"></div>
+                    <div class="product-badge" data-i18n="products.cosmic.badge">AI Platform</div>
+                    <div class="product-icon" style="--icon-gradient: linear-gradient(135deg, #8B5CF6, #6366F1)">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/><path d="M2 12h20"/></svg>
+                    </div>
+                    <h3 class="product-name">CosmicMeta.ai</h3>
+                    <p class="product-desc" data-i18n="products.cosmic.desc">AI-powered technology news & content platform. Unleashing creativity through artificial intelligence with curated insights on emerging digital trends.</p>
+                    <div class="product-tags">
+                        <span>AI</span><span data-i18n="products.cosmic.tag2">News</span><span data-i18n="products.cosmic.tag3">Content</span><span>Blockchain</span>
+                    </div>
+                    <a href="https://cosmicmeta.ai/" target="_blank" class="product-link">
+                        <span data-i18n="products.cosmic.link">Visit Platform</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17l9.2-9.2M17 17V8H8"/></svg>
+                    </a>
+                </div>
+
+                <!-- Vynix -->
+                <div class="product-card animate-on-scroll" data-tilt>
+                    <div class="product-glow" style="--glow-color: #EC4899"></div>
+                    <div class="product-badge" data-i18n="products.vynix.badge">Creative AI</div>
+                    <div class="product-icon" style="--icon-gradient: linear-gradient(135deg, #EC4899, #F43F5E)">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+                    </div>
+                    <h3 class="product-name">Vynix</h3>
+                    <p class="product-desc" data-i18n="products.vynix.desc">AI-powered creative studio with 100+ models. Generate images, videos, and audio from text prompts. Your imagination, amplified.</p>
+                    <div class="product-tags">
+                        <span data-i18n="products.vynix.tag1">AI Art</span><span data-i18n="products.vynix.tag2">Video</span><span data-i18n="products.vynix.tag3">Audio</span><span>iOS/Android</span>
+                    </div>
+                    <a href="https://vynix.app/" target="_blank" class="product-link">
+                        <span data-i18n="products.vynix.link">Explore App</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17l9.2-9.2M17 17V8H8"/></svg>
+                    </a>
+                </div>
+
+                <!-- MoodJot -->
+                <div class="product-card animate-on-scroll" data-tilt>
+                    <div class="product-glow" style="--glow-color: #10B981"></div>
+                    <div class="product-badge" data-i18n="products.moodjot.badge">Wellness</div>
+                    <div class="product-icon" style="--icon-gradient: linear-gradient(135deg, #10B981, #059669)">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+                    </div>
+                    <h3 class="product-name">MoodJot</h3>
+                    <p class="product-desc" data-i18n="products.moodjot.desc">Emotional wellness journal with AI insights. Track moods, discover patterns, and transform your emotional well-being. 10K+ active users.</p>
+                    <div class="product-tags">
+                        <span data-i18n="products.moodjot.tag1">Health</span><span>AI</span><span data-i18n="products.moodjot.tag3">Journal</span><span data-i18n="products.moodjot.tag4">Analytics</span>
+                    </div>
+                    <a href="https://moodjot.app/" target="_blank" class="product-link">
+                        <span data-i18n="products.moodjot.link">Try MoodJot</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17l9.2-9.2M17 17V8H8"/></svg>
+                    </a>
+                </div>
+
+                <!-- U2M -->
+                <div class="product-card animate-on-scroll" data-tilt>
+                    <div class="product-glow" style="--glow-color: #3B82F6"></div>
+                    <div class="product-badge" data-i18n="products.u2m.badge">SaaS Tool</div>
+                    <div class="product-icon" style="--icon-gradient: linear-gradient(135deg, #3B82F6, #2563EB)">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+                    </div>
+                    <h3 class="product-name">U2M.io</h3>
+                    <p class="product-desc" data-i18n="products.u2m.desc">Smart URL shortening with analytics & QR codes. Track clicks, generate QR codes, and manage links with a developer-friendly API.</p>
+                    <div class="product-tags">
+                        <span>URL</span><span data-i18n="products.u2m.tag2">Analytics</span><span>QR</span><span>API</span>
+                    </div>
+                    <a href="https://u2m.io/" target="_blank" class="product-link">
+                        <span data-i18n="products.u2m.link">Shorten URLs</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17l9.2-9.2M17 17V8H8"/></svg>
+                    </a>
+                </div>
+
+                <!-- Glow Spin -->
+                <div class="product-card animate-on-scroll" data-tilt>
+                    <div class="product-glow" style="--glow-color: #F59E0B"></div>
+                    <div class="product-badge" data-i18n="products.glowspin.badge">Gaming</div>
+                    <div class="product-icon" style="--icon-gradient: linear-gradient(135deg, #F59E0B, #D97706)">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 8l4 4-4 4-4-4 4-4z"/></svg>
+                    </div>
+                    <h3 class="product-name">Glow Spin</h3>
+                    <p class="product-desc" data-i18n="products.glowspin.desc">Neon rhythm arcade game with 500 levels. Match colors on spinning rings, test your reflexes, and climb the global leaderboard.</p>
+                    <div class="product-tags">
+                        <span data-i18n="products.glowspin.tag1">Game</span><span>Arcade</span><span>Neon</span><span data-i18n="products.glowspin.tag4">500 Levels</span>
+                    </div>
+                    <a href="https://glowspin.app/" target="_blank" class="product-link">
+                        <span data-i18n="products.glowspin.link">Play Now</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17l9.2-9.2M17 17V8H8"/></svg>
+                    </a>
+                </div>
+
+                <!-- Swipe Slip -->
+                <div class="product-card animate-on-scroll" data-tilt>
+                    <div class="product-glow" style="--glow-color: #EF4444"></div>
+                    <div class="product-badge" data-i18n="products.swipeslip.badge">Gaming</div>
+                    <div class="product-icon" style="--icon-gradient: linear-gradient(135deg, #EF4444, #DC2626)">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                    </div>
+                    <h3 class="product-name">Swipe Slip</h3>
+                    <p class="product-desc" data-i18n="products.swipeslip.desc">Hyper-casual tunnel runner with 500 levels & 8 difficulty tiers. Dodge obstacles, collect power-ups, and reach the Divine tier.</p>
+                    <div class="product-tags">
+                        <span data-i18n="products.swipeslip.tag1">Game</span><span>Runner</span><span data-i18n="products.swipeslip.tag3">Action</span><span data-i18n="products.swipeslip.tag4">Leaderboard</span>
+                    </div>
+                    <a href="https://swipeslip.app/" target="_blank" class="product-link">
+                        <span data-i18n="products.swipeslip.link">Play Now</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17l9.2-9.2M17 17V8H8"/></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Expertise Section -->
+    <section id="expertise" class="expertise">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-tag" data-i18n="expertise.tag">// Expertise & Timeline</span>
+                <h2 class="section-title" data-i18n-html="expertise.title">The <span class="gradient-text">Journey</span></h2>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-line"></div>
+
+                <div class="timeline-item animate-on-scroll">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-year">1999 - 2005</span>
+                        <h3 data-i18n="expertise.t1.title">Yildiz Technical University</h3>
+                        <p data-i18n="expertise.t1.desc">Computer Engineering degree. Built the foundation for a career in software architecture and system design.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item animate-on-scroll">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-year">2001 - 2010</span>
+                        <h3 data-i18n="expertise.t2.title">Enterprise Software Engineering</h3>
+                        <p data-i18n="expertise.t2.desc">Deep expertise in Java EE, Spring Framework, and microservices architecture. Built mission-critical systems for enterprise clients.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item animate-on-scroll">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-year">2010 - 2017</span>
+                        <h3 data-i18n="expertise.t3.title">Security & Open Source</h3>
+                        <p data-i18n="expertise.t3.desc">Created Nova W-SPY web security scanner and Crexta open-source data extraction framework. Led development of Qualist Business Operations Platform.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item animate-on-scroll">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-year">2018</span>
+                        <h3 data-i18n="expertise.t4.title">Founded Buhane IT</h3>
+                        <p data-i18n="expertise.t4.desc">Launched Buhane Information Technologies as a full-service technology partner. Software design, consulting, e-commerce, and AI services.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item animate-on-scroll">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-year">2021 - <span data-i18n="expertise.present">Present</span></span>
+                        <h3 data-i18n="expertise.t5.title">AI & Product Innovation</h3>
+                        <p data-i18n="expertise.t5.desc">Launched CosmicMeta.ai, Vynix AI Studio, MoodJot, U2M.io, Glow Spin, and Swipe Slip. Pioneering AI-powered consumer experiences.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tech Stack -->
+            <div class="tech-stack animate-on-scroll">
+                <h3 class="tech-title" data-i18n="expertise.tech_title">Tech Arsenal</h3>
+                <div class="tech-categories">
+                    <div class="tech-category">
+                        <span class="tech-cat-label">Backend</span>
+                        <div class="tech-items">
+                            <span class="tech-chip">Java</span>
+                            <span class="tech-chip">Kotlin</span>
+                            <span class="tech-chip">Spring Boot</span>
+                            <span class="tech-chip">Microservices</span>
+                            <span class="tech-chip">Node.js</span>
+                        </div>
+                    </div>
+                    <div class="tech-category">
+                        <span class="tech-cat-label" data-i18n="expertise.cat_frontend">Frontend & Mobile</span>
+                        <div class="tech-items">
+                            <span class="tech-chip">React</span>
+                            <span class="tech-chip">KMP</span>
+                            <span class="tech-chip">Swift</span>
+                            <span class="tech-chip">Jetpack Compose</span>
+                            <span class="tech-chip">HTML5/CSS3</span>
+                        </div>
+                    </div>
+                    <div class="tech-category">
+                        <span class="tech-cat-label" data-i18n="expertise.cat_ai">AI & Data</span>
+                        <div class="tech-items">
+                            <span class="tech-chip">OpenAI</span>
+                            <span class="tech-chip">Stable Diffusion</span>
+                            <span class="tech-chip">PostgreSQL</span>
+                            <span class="tech-chip">Firebase</span>
+                            <span class="tech-chip">ML/DL</span>
+                        </div>
+                    </div>
+                    <div class="tech-category">
+                        <span class="tech-cat-label" data-i18n="expertise.cat_infra">Infrastructure</span>
+                        <div class="tech-items">
+                            <span class="tech-chip">Docker</span>
+                            <span class="tech-chip">Kubernetes</span>
+                            <span class="tech-chip">AWS</span>
+                            <span class="tech-chip">CI/CD</span>
+                            <span class="tech-chip">DevOps</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Company Section -->
+    <section id="company" class="company">
+        <div class="container">
+            <div class="company-card animate-on-scroll">
+                <div class="company-content">
+                    <span class="section-tag" data-i18n="company.tag">// Technology Partner</span>
+                    <h2 class="company-title" data-i18n-html="company.title">Buhane <span class="gradient-text">Information Technologies</span></h2>
+                    <p class="company-desc" data-i18n="company.desc">Your innovation partner since 2018. We deliver cutting-edge solutions in software design, AI services, e-commerce, digital marketing, and strategic IT consulting.</p>
+                    <div class="company-services">
+                        <div class="service-pill">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                            <span data-i18n="company.s1">Software Design</span>
+                        </div>
+                        <div class="service-pill">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                            <span data-i18n="company.s2">AI Services</span>
+                        </div>
+                        <div class="service-pill">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg>
+                            <span data-i18n="company.s3">E-Commerce</span>
+                        </div>
+                        <div class="service-pill">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 002 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0022 16z"/></svg>
+                            <span data-i18n="company.s4">Consulting</span>
+                        </div>
+                        <div class="service-pill">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 20V10"/><path d="M12 20V4"/><path d="M6 20v-6"/></svg>
+                            <span data-i18n="company.s5">Digital Marketing</span>
+                        </div>
+                    </div>
+                    <a href="https://buhane.com.tr/" target="_blank" class="btn-primary">
+                        <span data-i18n="company.cta">Visit Buhane</span>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17l9.2-9.2M17 17V8H8"/></svg>
+                    </a>
+                </div>
+                <div class="company-visual">
+                    <div class="floating-shapes">
+                        <div class="shape shape-1"></div>
+                        <div class="shape shape-2"></div>
+                        <div class="shape shape-3"></div>
+                        <div class="shape shape-4"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-wrapper animate-on-scroll">
+                <div class="section-header">
+                    <span class="section-tag" data-i18n="contact.tag">// Get in Touch</span>
+                    <h2 class="section-title" data-i18n-html="contact.title">Let's Build Something <span class="gradient-text">Amazing</span></h2>
+                    <p class="section-desc" data-i18n="contact.desc">Have an idea? Need a technology partner? Let's make it happen.</p>
+                </div>
+                <div class="contact-links">
+                    <a href="mailto:hey@ahmet.sh" class="contact-card">
+                        <div class="contact-icon">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                        </div>
+                        <span class="contact-label" data-i18n="contact.email">Email</span>
+                        <span class="contact-value">hey@ahmet.sh</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/ahmetbutun/" target="_blank" class="contact-card">
+                        <div class="contact-icon">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                        </div>
+                        <span class="contact-label">LinkedIn</span>
+                        <span class="contact-value">ahmetbutun</span>
+                    </a>
+                    <a href="https://buhane.com.tr/" target="_blank" class="contact-card">
+                        <div class="contact-icon">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg>
+                        </div>
+                        <span class="contact-label" data-i18n="contact.website">Website</span>
+                        <span class="contact-value">buhane.com.tr</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="logo.png" alt="Ahmet Bütün" class="brand-logo">
+                </div>
+                <p class="footer-text" data-i18n="footer.text">&copy; 2026 Ahmet Bütün. Crafted with passion & code.</p>
+                <div class="footer-links">
+                    <a href="https://www.linkedin.com/in/ahmetbutun/" target="_blank">LinkedIn</a>
+                    <a href="https://buhane.com.tr/" target="_blank">Buhane IT</a>
+                    <a href="https://cosmicmeta.ai/" target="_blank">Cosmic Meta Digital</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="i18n.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
