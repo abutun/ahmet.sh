@@ -41,7 +41,7 @@
             'about.highlight2_title': 'AI Pioneer',
             'about.highlight2_desc': '100+ AI models across products',
             'about.highlight3_title': 'Product Visionary',
-            'about.highlight3_desc': '6 live products, 10K+ users',
+            'about.highlight3_desc': '7 live products, 10K+ users',
 
             // Products
             'products.tag': '// Products & Ventures',
@@ -79,6 +79,13 @@
             'products.swipeslip.tag3': 'Action',
             'products.swipeslip.tag4': 'Leaderboard',
             'products.swipeslip.link': 'Play Now',
+            'products.gridzle.badge': 'Puzzle',
+            'products.gridzle.desc': 'Counts-first logic puzzle with 250 hand-crafted levels across 5 difficulty tiers. Deduce, place, and toggle the grid to match row & column targets.',
+            'products.gridzle.tag1': 'Puzzle',
+            'products.gridzle.tag2': 'Logic',
+            'products.gridzle.tag3': 'Strategy',
+            'products.gridzle.tag4': 'Offline',
+            'products.gridzle.link': 'Play Now',
 
             // Expertise
             'expertise.tag': '// Expertise & Timeline',
@@ -93,7 +100,7 @@
             'expertise.t4.title': 'Founded Buhane IT',
             'expertise.t4.desc': 'Launched Buhane Information Technologies as a full-service technology partner. Software design, consulting, e-commerce, and AI services.',
             'expertise.t5.title': 'AI & Product Innovation',
-            'expertise.t5.desc': 'Launched CosmicMeta.ai, Vynix AI Studio, MoodJot, U2M.io, Glow Spin, and Swipe Slip. Pioneering AI-powered consumer experiences.',
+            'expertise.t5.desc': 'Launched CosmicMeta.ai, Vynix AI Studio, MoodJot, U2M.io, Glow Spin, Swipe Slip, and Gridzle. Pioneering AI-powered consumer experiences.',
             'expertise.tech_title': 'Tech Arsenal',
             'expertise.cat_frontend': 'Frontend & Mobile',
             'expertise.cat_ai': 'AI & Data',
@@ -155,7 +162,7 @@
             'about.highlight2_title': 'Yapay Zeka Öncüsü',
             'about.highlight2_desc': 'Ürünlerde 100+ AI modeli',
             'about.highlight3_title': 'Ürün Vizyoneri',
-            'about.highlight3_desc': '6 canlı ürün, 10K+ kullanıcı',
+            'about.highlight3_desc': '7 canlı ürün, 10K+ kullanıcı',
 
             // Products
             'products.tag': '// Ürünler & Girişimler',
@@ -193,6 +200,13 @@
             'products.swipeslip.tag3': 'Aksiyon',
             'products.swipeslip.tag4': 'Sıralama',
             'products.swipeslip.link': 'Şimdi Oyna',
+            'products.gridzle.badge': 'Bulmaca',
+            'products.gridzle.desc': '5 zorluk katmanında 250 özenle hazırlanmış seviye sunan sayı odaklı mantık bulmacası. Çıkarım yapın, parça yerleştirin ve satır & sütun hedeflerini eşleştirmek için ızgarayı değiştirin.',
+            'products.gridzle.tag1': 'Bulmaca',
+            'products.gridzle.tag2': 'Mantık',
+            'products.gridzle.tag3': 'Strateji',
+            'products.gridzle.tag4': 'Çevrimdışı',
+            'products.gridzle.link': 'Şimdi Oyna',
 
             // Expertise
             'expertise.tag': '// Uzmanlık & Zaman Çizelgesi',
@@ -207,7 +221,7 @@
             'expertise.t4.title': 'Buhane BT Kuruluşu',
             'expertise.t4.desc': 'Buhane Bilişim Teknolojilerini tam kapsamlı teknoloji ortağı olarak kurdu. Yazılım tasarımı, danışmanlık, e-ticaret ve yapay zeka hizmetleri.',
             'expertise.t5.title': 'Yapay Zeka & Ürün İnovasyonu',
-            'expertise.t5.desc': 'CosmicMeta.ai, Vynix AI Studio, MoodJot, U2M.io, Glow Spin ve Swipe Slip\'i piyasaya sürdü. Yapay zeka destekli tüketici deneyimlerine öncülük ediyor.',
+            'expertise.t5.desc': 'CosmicMeta.ai, Vynix AI Studio, MoodJot, U2M.io, Glow Spin, Swipe Slip ve Gridzle\'ı piyasaya sürdü. Yapay zeka destekli tüketici deneyimlerine öncülük ediyor.',
             'expertise.tech_title': 'Teknoloji Cephaneliği',
             'expertise.cat_frontend': 'Önyüz & Mobil',
             'expertise.cat_ai': 'Yapay Zeka & Veri',
