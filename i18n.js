@@ -15,33 +15,39 @@
             'nav.expertise': 'Expertise',
             'nav.contact': 'Contact',
             'nav.cta': "Let's Talk",
+            'nav.language': 'Switch language',
+            'nav.menu': 'Menu',
+
+            // Page metadata
+            'meta.title': 'Ahmet Bütün — Software Architect & Product Builder',
+            'meta.description': 'Ahmet Bütün is a software architect, product builder, and founder of Buhane Bilgi Teknolojileri. Explore selected apps, SaaS products, and games.',
 
             // Hero
-            'hero.badge': 'Available for consulting & partnerships',
-            'hero.title1': 'Building the',
-            'hero.title2': '<span class="gradient-text">Future of Tech</span>',
-            'hero.title3': 'Since <span class="gradient-text year-counter" id="yearCounter">2001</span>',
-            'hero.subtitle': 'Software Architect, AI Innovator & Serial Product Builder with <strong>24+ years</strong> of engineering excellence. From enterprise systems to AI-powered consumer apps.',
+            'hero.badge': 'Software architecture & product development',
+            'hero.title1': 'Software Architect',
+            'hero.title2': '& <span class="gradient-text">Product Builder</span>',
+            'hero.title3': 'Building since <span class="gradient-text year-counter" id="yearCounter">2001</span>',
+            'hero.subtitle': 'I design software systems and build apps, SaaS products, and games through <strong>Buhane Bilgi Teknolojileri</strong>, the company I founded.',
             'hero.cta1': 'Explore My Work',
             'hero.cta2': 'My Story',
-            'hero.stat1': 'Years Experience',
-            'hero.stat2': 'Live Products',
-            'hero.stat3': 'AI Models Integrated',
-            'hero.stat4': 'Active Users',
+            'hero.stat1': 'Building Software Since',
+            'hero.stat2': 'Selected Work',
+            'hero.stat3': 'Interface Languages',
+            'hero.stat4': 'Products at Buhane',
             'hero.scroll': 'Scroll to explore',
 
             // About
             'about.tag': '// About Me',
             'about.title': 'Crafting Digital <span class="gradient-text">Excellence</span>',
             'about.lead': "I'm <strong>Ahmet Bütün</strong>, a Computer Engineer from Yildiz Technical University with over two decades of passion for building software that matters.",
-            'about.p1': 'As the founder of <strong>Buhane Information Technologies</strong>, I lead a team that transforms ideas into scalable digital solutions. From enterprise-grade platforms to AI-powered consumer applications, I\'ve architected systems that serve thousands of users worldwide.',
+            'about.p1': 'I founded <a class="inline-link" href="https://buhane.com.tr/"><strong>Buhane Bilgi Teknolojileri</strong></a>, the company behind my product work in apps, SaaS, and games. This personal site highlights selected work; Buhane is the authoritative home for the complete portfolio.',
             'about.p2': 'My journey spans from crafting security tools like <strong>Nova W-SPY</strong> to building open-source frameworks like <strong>Crexta</strong>, and now pioneering AI-driven creative tools. I believe technology should empower people to do extraordinary things.',
-            'about.highlight1_title': 'Full-Stack Mastery',
-            'about.highlight1_desc': 'From microservices to mobile apps',
-            'about.highlight2_title': 'AI Pioneer',
-            'about.highlight2_desc': '120+ AI models across products',
-            'about.highlight3_title': 'Product Visionary',
-            'about.highlight3_desc': '10 live products, 10K+ users',
+            'about.highlight1_title': 'Software Architecture',
+            'about.highlight1_desc': 'Systems and product foundations',
+            'about.highlight2_title': 'Product Engineering',
+            'about.highlight2_desc': 'Web and cross-platform applications',
+            'about.highlight3_title': 'Founder at Buhane',
+            'about.highlight3_desc': 'The company behind the full portfolio',
 
             // Products
             'products.tag': '// Products & Ventures',
@@ -120,16 +126,16 @@
             'expertise.t4.title': 'Founded Buhane IT',
             'expertise.t4.desc': 'Launched Buhane Information Technologies as a full-service technology partner. Software design, consulting, e-commerce, and AI services.',
             'expertise.t5.title': 'AI & Product Innovation',
-            'expertise.t5.desc': 'Launched TheCosmicMeta.com, Vynix AI Studio, MoodJot, U2M.io, HiveDue, Lastimo, Glow Spin, Swipe Slip, Gridzle, and AstralPost. Pioneering AI-powered consumer experiences.',
+            'expertise.t5.desc': 'I continue to build and maintain products across creative tools, personal utilities, business software, and games through Buhane.',
             'expertise.tech_title': 'Tech Arsenal',
             'expertise.cat_frontend': 'Frontend & Mobile',
             'expertise.cat_ai': 'AI & Data',
             'expertise.cat_infra': 'Infrastructure',
 
             // Company
-            'company.tag': '// Technology Partner',
-            'company.title': 'Buhane <span class="gradient-text">Information Technologies</span>',
-            'company.desc': 'Your innovation partner since 2018. We deliver cutting-edge solutions in software design, AI services, e-commerce, digital marketing, and strategic IT consulting.',
+            'company.tag': '// Company I Founded',
+            'company.title': 'Buhane <span class="gradient-text">Bilgi Teknolojileri</span>',
+            'company.desc': 'I founded Buhane Bilgi Teknolojileri as the company behind this product work and our software design and technology consulting.',
             'company.s1': 'Software Design',
             'company.s2': 'AI Services',
             'company.s3': 'E-Commerce',
@@ -156,33 +162,39 @@
             'nav.expertise': 'Uzmanlık',
             'nav.contact': 'İletişim',
             'nav.cta': 'İletişime Geç',
+            'nav.language': 'Dili değiştir',
+            'nav.menu': 'Menü',
+
+            // Sayfa metaverisi
+            'meta.title': 'Ahmet Bütün — Yazılım Mimarı ve Ürün Geliştirici',
+            'meta.description': 'Ahmet Bütün; yazılım mimarı, ürün geliştirici ve Buhane Bilgi Teknolojileri kurucusudur. Seçili uygulama, SaaS ürünü ve oyunları keşfedin.',
 
             // Hero
-            'hero.badge': 'Danışmanlık ve iş birliği için müsait',
-            'hero.title1': '<span class="gradient-text year-counter" id="yearCounter">2001</span>\'den Beri',
-            'hero.title2': '<span class="gradient-text">Geleceği</span>',
-            'hero.title3': 'İnşa Ediyoruz',
-            'hero.subtitle': 'Yazılım Mimarı, Yapay Zeka İnovatörü ve Seri Ürün Geliştirici. <strong>24+ yıllık</strong> mühendislik deneyimi. Kurumsal sistemlerden yapay zeka destekli tüketici uygulamalarına.',
+            'hero.badge': 'Yazılım mimarisi ve ürün geliştirme',
+            'hero.title1': 'Yazılım Mimarı',
+            'hero.title2': 've <span class="gradient-text">Ürün Geliştirici</span>',
+            'hero.title3': '<span class="gradient-text year-counter" id="yearCounter">2001</span>\'den beri üretiyor',
+            'hero.subtitle': 'Yazılım sistemleri tasarlıyor; kurduğum <strong>Buhane Bilgi Teknolojileri</strong> çatısı altında uygulamalar, SaaS ürünleri ve oyunlar geliştiriyorum.',
             'hero.cta1': 'Çalışmalarımı Keşfet',
             'hero.cta2': 'Hikayem',
-            'hero.stat1': 'Yıl Deneyim',
-            'hero.stat2': 'Canlı Ürün',
-            'hero.stat3': 'Entegre AI Modeli',
-            'hero.stat4': 'Aktif Kullanıcı',
+            'hero.stat1': 'Yazılım Üretmeye Başlangıç',
+            'hero.stat2': 'Seçili Çalışma',
+            'hero.stat3': 'Arayüz Dili',
+            'hero.stat4': 'Buhane Ürünü',
             'hero.scroll': 'Keşfetmek için kaydır',
 
             // About
             'about.tag': '// Hakkımda',
             'about.title': 'Dijital <span class="gradient-text">Mükemmellik</span> Yaratmak',
             'about.lead': 'Ben <strong>Ahmet Bütün</strong>, Yıldız Teknik Üniversitesi Bilgisayar Mühendisliği mezunuyum. Yirmi yılı aşkın süredir anlamlı yazılımlar geliştirme tutkusuyla çalışıyorum.',
-            'about.p1': '<strong>Buhane Bilişim Teknolojileri</strong>\'nin kurucusu olarak, fikirleri ölçeklenebilir dijital çözümlere dönüştüren bir ekibe liderlik ediyorum. Kurumsal platformlardan yapay zeka destekli tüketici uygulamalarına kadar, dünya genelinde binlerce kullanıcıya hizmet veren sistemler tasarladım.',
+            'about.p1': 'Uygulama, SaaS ve oyun çalışmalarımın arkasındaki şirket olan <a class="inline-link" href="https://buhane.com.tr/tr/"><strong>Buhane Bilgi Teknolojileri</strong></a>\'ni kurdum. Bu kişisel site seçili çalışmaları öne çıkarır; eksiksiz portföyün yetkili adresi Buhane\'dir.',
             'about.p2': 'Yolculuğum <strong>Nova W-SPY</strong> gibi güvenlik araçları geliştirmekten, <strong>Crexta</strong> gibi açık kaynak çerçeveler oluşturmaya ve şimdi de yapay zeka destekli yaratıcı araçlara öncülük etmeye uzanıyor. Teknolojinin insanları olağanüstü şeyler yapmaya güçlendirmesi gerektiğine inanıyorum.',
-            'about.highlight1_title': 'Full-Stack Ustalık',
-            'about.highlight1_desc': 'Mikroservislerden mobil uygulamalara',
-            'about.highlight2_title': 'Yapay Zeka Öncüsü',
-            'about.highlight2_desc': 'Ürünlerde 120+ AI modeli',
-            'about.highlight3_title': 'Ürün Vizyoneri',
-            'about.highlight3_desc': '10 canlı ürün, 10K+ kullanıcı',
+            'about.highlight1_title': 'Yazılım Mimarisi',
+            'about.highlight1_desc': 'Sistemler ve ürün temelleri',
+            'about.highlight2_title': 'Ürün Mühendisliği',
+            'about.highlight2_desc': 'Web ve çapraz platform uygulamaları',
+            'about.highlight3_title': 'Buhane Kurucusu',
+            'about.highlight3_desc': 'Eksiksiz portföyün arkasındaki şirket',
 
             // Products
             'products.tag': '// Ürünler & Girişimler',
@@ -261,16 +273,16 @@
             'expertise.t4.title': 'Buhane BT Kuruluşu',
             'expertise.t4.desc': 'Buhane Bilişim Teknolojilerini tam kapsamlı teknoloji ortağı olarak kurdu. Yazılım tasarımı, danışmanlık, e-ticaret ve yapay zeka hizmetleri.',
             'expertise.t5.title': 'Yapay Zeka & Ürün İnovasyonu',
-            'expertise.t5.desc': 'TheCosmicMeta.com, Vynix AI Studio, MoodJot, U2M.io, HiveDue, Lastimo, Glow Spin, Swipe Slip, Gridzle ve AstralPost\'u piyasaya sürdü. Yapay zeka destekli tüketici deneyimlerine öncülük ediyor.',
+            'expertise.t5.desc': 'Buhane çatısı altında yaratıcı araçlar, kişisel yardımcılar, iş yazılımları ve oyunlar geliştirmeye ve sürdürmeye devam ediyorum.',
             'expertise.tech_title': 'Teknoloji Cephaneliği',
             'expertise.cat_frontend': 'Önyüz & Mobil',
             'expertise.cat_ai': 'Yapay Zeka & Veri',
             'expertise.cat_infra': 'Altyapı',
 
             // Company
-            'company.tag': '// Teknoloji Ortağı',
-            'company.title': 'Buhane <span class="gradient-text">Bilişim Teknolojileri</span>',
-            'company.desc': '2018\'den beri inovasyon ortağınız. Yazılım tasarımı, yapay zeka hizmetleri, e-ticaret, dijital pazarlama ve stratejik BT danışmanlığında son teknoloji çözümler sunuyoruz.',
+            'company.tag': '// Kurduğum Şirket',
+            'company.title': 'Buhane <span class="gradient-text">Bilgi Teknolojileri</span>',
+            'company.desc': 'Buhane Bilgi Teknolojileri\'ni bu ürün çalışmalarının ve yazılım tasarımı ile teknoloji danışmanlığı hizmetlerimizin arkasındaki şirket olarak kurdum.',
             'company.s1': 'Yazılım Tasarımı',
             'company.s2': 'Yapay Zeka',
             'company.s3': 'E-Ticaret',
@@ -320,13 +332,21 @@
             }
         });
 
+        // data-i18n-aria-label: localized accessible names
+        document.querySelectorAll('[data-i18n-aria-label]').forEach(el => {
+            const key = el.getAttribute('data-i18n-aria-label');
+            if (t[key] !== undefined) {
+                el.setAttribute('aria-label', t[key]);
+            }
+        });
+
         // Update html lang attribute
         document.documentElement.lang = lang === 'tr' ? 'tr' : 'en';
 
         // Update page title
-        document.title = lang === 'tr'
-            ? 'Ahmet Bütün - Yazılım Mimarı & Teknoloji Vizyoneri'
-            : 'Ahmet Bütün - Software Architect & Tech Visionary';
+        document.title = t['meta.title'];
+        const description = document.querySelector('meta[name="description"]');
+        if (description) description.setAttribute('content', t['meta.description']);
 
         // Update switcher UI
         const flagEl = document.getElementById('langFlag');

@@ -3,7 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ahmet Bütün - Software Architect & Tech Visionary</title>
+    <title>Ahmet Bütün — Software Architect &amp; Product Builder</title>
+    <meta name="description" content="Ahmet Bütün is a software architect, product builder, and founder of Buhane Bilgi Teknolojileri. Explore selected apps, SaaS products, and games.">
+    <link rel="canonical" href="https://ahmet.sh/">
+    <meta property="og:type" content="profile">
+    <meta property="og:title" content="Ahmet Bütün — Software Architect &amp; Product Builder">
+    <meta property="og:description" content="Selected product work and software architecture by Ahmet Bütün, founder of Buhane Bilgi Teknolojileri.">
+    <meta property="og:url" content="https://ahmet.sh/">
+    <meta property="og:site_name" content="Ahmet Bütün">
+    <meta property="og:image" content="https://ahmet.sh/logo.png">
+    <meta property="og:image:alt" content="Ahmet Bütün">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Ahmet Bütün — Software Architect &amp; Product Builder">
+    <meta name="twitter:description" content="Selected product work and software architecture by Ahmet Bütün, founder of Buhane Bilgi Teknolojileri.">
+    <meta name="twitter:image" content="https://ahmet.sh/logo.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -12,6 +25,41 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "WebSite",
+                "@id": "https://ahmet.sh/#website",
+                "url": "https://ahmet.sh/",
+                "name": "Ahmet Bütün",
+                "description": "The personal website and selected product work of software architect Ahmet Bütün.",
+                "inLanguage": ["en", "tr"],
+                "author": { "@id": "https://ahmet.sh/#person" }
+            },
+            {
+                "@type": "Person",
+                "@id": "https://ahmet.sh/#person",
+                "name": "Ahmet Bütün",
+                "url": "https://ahmet.sh/",
+                "image": "https://ahmet.sh/logo.png",
+                "jobTitle": "Software Architect",
+                "sameAs": [
+                    "https://www.linkedin.com/in/ahmetbutun/"
+                ],
+                "worksFor": { "@id": "https://buhane.com.tr/#organization" }
+            },
+            {
+                "@type": "Organization",
+                "@id": "https://buhane.com.tr/#organization",
+                "name": "Buhane Bilgi Teknolojileri",
+                "url": "https://buhane.com.tr/",
+                "founder": { "@id": "https://ahmet.sh/#person" }
+            }
+        ]
+    }
+    </script>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-KJXNT2SFKR"></script>
     <script>
@@ -42,13 +90,13 @@
             <a href="#contact" class="nav-link" data-section="contact" data-i18n="nav.contact">Contact</a>
         </div>
         <div class="nav-actions">
-            <button class="lang-switcher" id="langSwitcher" aria-label="Switch language">
+            <button class="lang-switcher" id="langSwitcher" aria-label="Switch language" data-i18n-aria-label="nav.language">
                 <span class="lang-flag" id="langFlag">🇬🇧</span>
                 <span class="lang-code" id="langCode">EN</span>
             </button>
             <a href="#contact" class="btn-glow" data-i18n="nav.cta">Let's Talk</a>
         </div>
-        <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Menu" data-i18n-aria-label="nav.menu">
             <span></span><span></span><span></span>
         </button>
     </nav>
@@ -68,16 +116,16 @@
         <div class="hero-content">
             <div class="hero-badge animate-on-scroll">
                 <span class="badge-dot"></span>
-                <span data-i18n="hero.badge">Available for consulting & partnerships</span>
+                <span data-i18n="hero.badge">Software architecture &amp; product development</span>
             </div>
             <h1 class="hero-title animate-on-scroll">
-                <span class="title-line" data-i18n-html="hero.title1">Building the</span>
-                <span class="title-line" data-i18n-html="hero.title2"><span class="gradient-text">Future of Tech</span></span>
-                <span class="title-line" data-i18n-html="hero.title3">Since <span class="gradient-text year-counter" id="yearCounter">2001</span></span>
+                <span class="title-line" data-i18n-html="hero.title1">Software Architect</span>
+                <span class="title-line" data-i18n-html="hero.title2">&amp; <span class="gradient-text">Product Builder</span></span>
+                <span class="title-line" data-i18n-html="hero.title3">Building since <span class="gradient-text year-counter" id="yearCounter">2001</span></span>
             </h1>
             <p class="hero-subtitle animate-on-scroll" data-i18n-html="hero.subtitle">
-                Software Architect, AI Innovator & Serial Product Builder with <strong>24+ years</strong> of engineering excellence.
-                From enterprise systems to AI-powered consumer apps.
+                I design software systems and build apps, SaaS products, and games through
+                <strong>Buhane Bilgi Teknolojileri</strong>, the company I founded.
             </p>
             <div class="hero-actions animate-on-scroll">
                 <a href="#products" class="btn-primary">
@@ -90,23 +138,23 @@
             </div>
             <div class="hero-stats animate-on-scroll">
                 <div class="stat-item">
-                    <span class="stat-number" data-target="24">0</span><span class="stat-plus">+</span>
-                    <span class="stat-label" data-i18n="hero.stat1">Years Experience</span>
+                    <span class="stat-number" data-target="2001">0</span>
+                    <span class="stat-label" data-i18n="hero.stat1">Building Software Since</span>
                 </div>
                 <div class="stat-divider"></div>
                 <div class="stat-item">
-                    <span class="stat-number" data-target="10">0</span>
-                    <span class="stat-label" data-i18n="hero.stat2">Live Products</span>
+                    <span class="stat-number" data-target="6">0</span>
+                    <span class="stat-label" data-i18n="hero.stat2">Selected Work</span>
                 </div>
                 <div class="stat-divider"></div>
                 <div class="stat-item">
-                    <span class="stat-number" data-target="120">0</span><span class="stat-plus">+</span>
-                    <span class="stat-label" data-i18n="hero.stat3">AI Models Integrated</span>
+                    <span class="stat-number" data-target="2">0</span>
+                    <span class="stat-label" data-i18n="hero.stat3">Interface Languages</span>
                 </div>
                 <div class="stat-divider"></div>
                 <div class="stat-item">
-                    <span class="stat-number" data-target="10000">0</span><span class="stat-plus">+</span>
-                    <span class="stat-label" data-i18n="hero.stat4">Active Users</span>
+                    <span class="stat-number" data-target="11">0</span>
+                    <span class="stat-label" data-i18n="hero.stat4">Products at Buhane</span>
                 </div>
             </div>
         </div>
@@ -131,7 +179,7 @@
                         I'm <strong>Ahmet Bütün</strong>, a Computer Engineer from Yildiz Technical University with over two decades of passion for building software that matters.
                     </p>
                     <p data-i18n-html="about.p1">
-                        As the founder of <strong>Buhane Information Technologies</strong>, I lead a team that transforms ideas into scalable digital solutions. From enterprise-grade platforms to AI-powered consumer applications, I've architected systems that serve thousands of users worldwide.
+                        I founded <a class="inline-link" href="https://buhane.com.tr/"><strong>Buhane Bilgi Teknolojileri</strong></a>, the company behind my product work in apps, SaaS, and games. This personal site highlights selected work; Buhane is the authoritative home for the complete portfolio.
                     </p>
                     <p data-i18n-html="about.p2">
                         My journey spans from crafting security tools like <strong>Nova W-SPY</strong> to building open-source frameworks like <strong>Crexta</strong>, and now pioneering AI-driven creative tools. I believe technology should empower people to do extraordinary things.
@@ -142,8 +190,8 @@
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
                             </div>
                             <div>
-                                <strong data-i18n="about.highlight1_title">Full-Stack Mastery</strong>
-                                <span data-i18n="about.highlight1_desc">From microservices to mobile apps</span>
+                                <strong data-i18n="about.highlight1_title">Software Architecture</strong>
+                                <span data-i18n="about.highlight1_desc">Systems and product foundations</span>
                             </div>
                         </div>
                         <div class="highlight-item">
@@ -151,8 +199,8 @@
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
                             </div>
                             <div>
-                                <strong data-i18n="about.highlight2_title">AI Pioneer</strong>
-                                <span data-i18n="about.highlight2_desc">120+ AI models across products</span>
+                                <strong data-i18n="about.highlight2_title">Product Engineering</strong>
+                                <span data-i18n="about.highlight2_desc">Web and cross-platform applications</span>
                             </div>
                         </div>
                         <div class="highlight-item">
@@ -160,8 +208,8 @@
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
                             </div>
                             <div>
-                                <strong data-i18n="about.highlight3_title">Product Visionary</strong>
-                                <span data-i18n="about.highlight3_desc">10 live products, 10K+ users</span>
+                                <strong data-i18n="about.highlight3_title">Founder at Buhane</strong>
+                                <span data-i18n="about.highlight3_desc">The company behind the full portfolio</span>
                             </div>
                         </div>
                     </div>
@@ -440,7 +488,7 @@
                     <div class="timeline-content">
                         <span class="timeline-year">2021 - <span data-i18n="expertise.present">Present</span></span>
                         <h3 data-i18n="expertise.t5.title">AI & Product Innovation</h3>
-                        <p data-i18n="expertise.t5.desc">Launched TheCosmicMeta.com, Vynix AI Studio, MoodJot, U2M.io, HiveDue, Lastimo, Glow Spin, Swipe Slip, Gridzle, and AstralPost. Pioneering AI-powered consumer experiences.</p>
+                        <p data-i18n="expertise.t5.desc">I continue to build and maintain products across creative tools, personal utilities, business software, and games through Buhane.</p>
                     </div>
                 </div>
             </div>
@@ -499,9 +547,9 @@
         <div class="container">
             <div class="company-card animate-on-scroll">
                 <div class="company-content">
-                    <span class="section-tag" data-i18n="company.tag">// Technology Partner</span>
-                    <h2 class="company-title" data-i18n-html="company.title">Buhane <span class="gradient-text">Information Technologies</span></h2>
-                    <p class="company-desc" data-i18n="company.desc">Your innovation partner since 2018. We deliver cutting-edge solutions in software design, AI services, e-commerce, digital marketing, and strategic IT consulting.</p>
+                    <span class="section-tag" data-i18n="company.tag">// Company I Founded</span>
+                    <h2 class="company-title" data-i18n-html="company.title">Buhane <span class="gradient-text">Bilgi Teknolojileri</span></h2>
+                    <p class="company-desc" data-i18n="company.desc">I founded Buhane Bilgi Teknolojileri as the company behind this product work and our software design and technology consulting.</p>
                     <div class="company-services">
                         <div class="service-pill">
                             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>

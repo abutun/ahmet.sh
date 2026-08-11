@@ -609,6 +609,18 @@ a {
     color: var(--text-primary);
 }
 
+.inline-link {
+    color: var(--text-primary);
+    text-decoration: underline;
+    text-decoration-color: var(--accent-1);
+    text-underline-offset: 4px;
+    transition: color 0.3s;
+}
+
+.inline-link:hover {
+    color: var(--accent-1);
+}
+
 .about-highlights {
     margin-top: 32px;
     display: flex;
