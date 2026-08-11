@@ -187,75 +187,6 @@
         });
     }
 
-    // --- Counter Animation ---
-    function animateCounters() {
-        const counters = document.querySelectorAll('.stat-number');
-
-        const observer = new IntersectionObserver(
-            (entries) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        const target = parseInt(entry.target.getAttribute('data-target'));
-                        animateValue(entry.target, 0, target, 2000);
-                        observer.unobserve(entry.target);
-                    }
-                });
-            },
-            { threshold: 0.5 }
-        );
-
-        counters.forEach(counter => observer.observe(counter));
-    }
-
-    function animateValue(element, start, end, duration) {
-        const startTime = performance.now();
-
-        function update(currentTime) {
-            const elapsed = currentTime - startTime;
-            const progress = Math.min(elapsed / duration, 1);
-
-            // Ease out expo
-            const eased = 1 - Math.pow(1 - progress, 4);
-            const current = Math.floor(start + (end - start) * eased);
-
-            element.textContent = current >= 1000
-                ? current.toLocaleString()
-                : current;
-
-            if (progress < 1) {
-                requestAnimationFrame(update);
-            }
-        }
-
-        requestAnimationFrame(update);
-    }
-
-    // --- Year Counter in Hero ---
-    function animateYearCounter() {
-        const years = [2001, 2005, 2010, 2015, 2018, 2021, 2024, 2026];
-        let index = 0;
-
-        function cycleYear() {
-            const yearEl = document.getElementById('yearCounter');
-            if (!yearEl) return;
-
-            yearEl.style.transition = 'opacity 0.3s, transform 0.3s';
-            yearEl.style.opacity = '0';
-            yearEl.style.transform = 'translateY(-10px)';
-
-            setTimeout(() => {
-                const el = document.getElementById('yearCounter');
-                if (!el) return;
-                el.textContent = years[index];
-                el.style.opacity = '1';
-                el.style.transform = 'translateY(0)';
-                index = (index + 1) % years.length;
-            }, 300);
-        }
-
-        setInterval(cycleYear, 2500);
-    }
-
     // --- 3D Tilt Effect on Product Cards ---
     function initTiltEffect() {
         const cards = document.querySelectorAll('[data-tilt]');
@@ -383,8 +314,6 @@
         animateParticles();
         updateCursorGlow();
         initScrollAnimations();
-        animateCounters();
-        animateYearCounter();
         initTiltEffect();
         initSmoothScroll();
         initMagneticButtons();
