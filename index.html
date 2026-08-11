@@ -85,7 +85,7 @@
         <div class="nav-links">
             <a href="#hero" class="nav-link active" data-section="hero" data-i18n="nav.home">Home</a>
             <a href="#about" class="nav-link" data-section="about" data-i18n="nav.about">About</a>
-            <a href="#products" class="nav-link" data-section="products" data-i18n="nav.products">Products</a>
+            <a href="#products" class="nav-link" data-section="products" data-i18n="nav.products">Selected Work</a>
             <a href="#expertise" class="nav-link" data-section="expertise" data-i18n="nav.expertise">Expertise</a>
             <a href="#contact" class="nav-link" data-section="contact" data-i18n="nav.contact">Contact</a>
         </div>
@@ -105,7 +105,7 @@
     <div class="mobile-menu" id="mobileMenu">
         <a href="#hero" class="mobile-link" data-i18n="nav.home">Home</a>
         <a href="#about" class="mobile-link" data-i18n="nav.about">About</a>
-        <a href="#products" class="mobile-link" data-i18n="nav.products">Products</a>
+        <a href="#products" class="mobile-link" data-i18n="nav.products">Selected Work</a>
         <a href="#expertise" class="mobile-link" data-i18n="nav.expertise">Expertise</a>
         <a href="#contact" class="mobile-link" data-i18n="nav.contact">Contact</a>
     </div>
@@ -247,191 +247,126 @@
     <section id="products" class="products">
         <div class="container">
             <div class="section-header animate-on-scroll">
-                <span class="section-tag" data-i18n="products.tag">// Products & Ventures</span>
-                <h2 class="section-title" data-i18n-html="products.title">What I've <span class="gradient-text">Built</span></h2>
-                <p class="section-desc" data-i18n="products.desc">A portfolio of products spanning AI, finance, utilities, wellness, and gaming</p>
+                <span class="section-tag" data-i18n="products.tag">// Selected Work</span>
+                <h2 class="section-title" data-i18n-html="products.title">Products I <span class="gradient-text">Build</span></h2>
+                <p class="section-desc" data-i18n="products.desc">A curated look at products I build through Buhane. The company site maintains the complete portfolio.</p>
             </div>
 
             <div class="products-grid">
-                <!-- TheCosmicMeta -->
-                <div class="product-card product-featured animate-on-scroll" data-tilt>
-                    <div class="product-glow" style="--glow-color: #8B5CF6"></div>
-                    <div class="product-badge" data-i18n="products.cosmic.badge">AI Platform</div>
-                    <div class="product-icon" style="--icon-gradient: linear-gradient(135deg, #8B5CF6, #6366F1)">
-                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/><path d="M2 12h20"/></svg>
-                    </div>
-                    <h3 class="product-name">TheCosmicMeta.com</h3>
-                    <p class="product-desc" data-i18n="products.cosmic.desc">AI-powered technology news & content platform. Unleashing creativity through artificial intelligence with curated insights on emerging digital trends.</p>
-                    <div class="product-tags">
-                        <span>AI</span><span data-i18n="products.cosmic.tag2">News</span><span data-i18n="products.cosmic.tag3">Content</span><span>Blockchain</span>
-                    </div>
-                    <a href="https://thecosmicmeta.com/" target="_blank" class="product-link">
-                        <span data-i18n="products.cosmic.link">Visit Platform</span>
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17l9.2-9.2M17 17V8H8"/></svg>
-                    </a>
-                </div>
-
                 <!-- Vynix -->
-                <div class="product-card animate-on-scroll" data-tilt>
+                <div class="product-card animate-on-scroll" data-product-id="vynix" data-tilt>
                     <div class="product-glow" style="--glow-color: #EC4899"></div>
-                    <div class="product-badge" data-i18n="products.vynix.badge">Creative AI</div>
+                    <div class="product-badge" data-i18n="products.vynix.badge">Creative Workflows</div>
                     <div class="product-icon product-icon-image">
                         <img src="images/product-icons/vynix.png" alt="Vynix app icon" width="64" height="64" loading="lazy" decoding="async">
                     </div>
                     <h3 class="product-name">Vynix</h3>
-                    <p class="product-desc" data-i18n="products.vynix.desc">AI-powered creative studio with 120+ models. Generate images, videos, and audio from text prompts. Your imagination, amplified.</p>
+                    <p class="product-desc" data-i18n="products.vynix.desc">A cross-platform app for AI-assisted text, image, audio, and video workflows—selected for its multimodal creation flow.</p>
                     <div class="product-tags">
-                        <span data-i18n="products.vynix.tag1">AI Art</span><span data-i18n="products.vynix.tag2">Video</span><span data-i18n="products.vynix.tag3">Audio</span><span>iOS/Android</span>
+                        <span data-i18n="products.vynix.tag1">Text</span><span data-i18n="products.vynix.tag2">Image</span><span data-i18n="products.vynix.tag3">Audio</span><span data-i18n="products.vynix.tag4">Video</span>
                     </div>
-                    <a href="https://vynix.app/" target="_blank" class="product-link">
-                        <span data-i18n="products.vynix.link">Explore App</span>
+                    <a href="https://vynix.app/" target="_blank" rel="noopener noreferrer" class="product-link">
+                        <span data-i18n="products.view">View product</span>
                         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17l9.2-9.2M17 17V8H8"/></svg>
                     </a>
                 </div>
 
                 <!-- MoodJot -->
-                <div class="product-card animate-on-scroll" data-tilt>
+                <div class="product-card animate-on-scroll" data-product-id="moodjot" data-tilt>
                     <div class="product-glow" style="--glow-color: #10B981"></div>
-                    <div class="product-badge" data-i18n="products.moodjot.badge">Wellness</div>
+                    <div class="product-badge" data-i18n="products.moodjot.badge">Mood &amp; Journaling</div>
                     <div class="product-icon product-icon-image">
                         <img src="images/product-icons/moodjot.png" alt="MoodJot app icon" width="64" height="64" loading="lazy" decoding="async">
                     </div>
                     <h3 class="product-name">MoodJot</h3>
-                    <p class="product-desc" data-i18n="products.moodjot.desc">Emotional wellness journal with AI insights. Track moods, discover patterns, and transform your emotional well-being. 10K+ active users.</p>
+                    <p class="product-desc" data-i18n="products.moodjot.desc">A focused capture flow for mood entries and journal notes, with optional photos and reminders.</p>
                     <div class="product-tags">
-                        <span data-i18n="products.moodjot.tag1">Health</span><span>AI</span><span data-i18n="products.moodjot.tag3">Journal</span><span data-i18n="products.moodjot.tag4">Analytics</span>
+                        <span data-i18n="products.moodjot.tag1">Mood Entries</span><span data-i18n="products.moodjot.tag2">Journal Notes</span><span data-i18n="products.moodjot.tag3">Photos</span><span data-i18n="products.moodjot.tag4">Reminders</span>
                     </div>
-                    <a href="https://moodjot.app/" target="_blank" class="product-link">
-                        <span data-i18n="products.moodjot.link">Try MoodJot</span>
+                    <a href="https://moodjot.app/" target="_blank" rel="noopener noreferrer" class="product-link">
+                        <span data-i18n="products.view">View product</span>
                         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17l9.2-9.2M17 17V8H8"/></svg>
                     </a>
                 </div>
 
                 <!-- U2M -->
-                <div class="product-card animate-on-scroll" data-tilt>
+                <div class="product-card animate-on-scroll" data-product-id="u2m" data-tilt>
                     <div class="product-glow" style="--glow-color: #3B82F6"></div>
-                    <div class="product-badge" data-i18n="products.u2m.badge">SaaS Tool</div>
+                    <div class="product-badge" data-i18n="products.u2m.badge">Web Utility</div>
                     <div class="product-icon" style="--icon-gradient: linear-gradient(135deg, #3B82F6, #2563EB)">
                         <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
                     </div>
-                    <h3 class="product-name">U2M.io</h3>
-                    <p class="product-desc" data-i18n="products.u2m.desc">Smart URL shortening with analytics & QR codes. Track clicks, generate QR codes, and manage links with a developer-friendly API.</p>
+                    <h3 class="product-name">U2M URL Shortener</h3>
+                    <p class="product-desc" data-i18n="products.u2m.desc">A URL shortener with public API documentation and link statistics—selected for its compact product and developer surface.</p>
                     <div class="product-tags">
-                        <span>URL</span><span data-i18n="products.u2m.tag2">Analytics</span><span>QR</span><span>API</span>
+                        <span data-i18n="products.u2m.tag1">URL Shortening</span><span data-i18n="products.u2m.tag2">API Docs</span><span data-i18n="products.u2m.tag3">Link Statistics</span>
                     </div>
-                    <a href="https://u2m.io/" target="_blank" class="product-link">
-                        <span data-i18n="products.u2m.link">Shorten URLs</span>
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17l9.2-9.2M17 17V8H8"/></svg>
-                    </a>
-                </div>
-
-                <!-- HiveDue -->
-                <div class="product-card animate-on-scroll" data-tilt>
-                    <div class="product-glow" style="--glow-color: #0056D2"></div>
-                    <div class="product-badge" data-i18n="products.hivedue.badge">Community SaaS</div>
-                    <div class="product-icon product-icon-image">
-                        <img src="images/product-icons/hivedue.png" alt="HiveDue app icon" width="64" height="64" loading="lazy" decoding="async">
-                    </div>
-                    <h3 class="product-name">HiveDue</h3>
-                    <p class="product-desc" data-i18n="products.hivedue.desc">Community finance management for dues, payments, announcements, and documents in one place. Live on the web today with mobile apps coming soon.</p>
-                    <div class="product-tags">
-                        <span data-i18n="products.hivedue.tag1">Finance</span><span data-i18n="products.hivedue.tag2">Dues</span><span data-i18n="products.hivedue.tag3">Reports</span><span data-i18n="products.hivedue.tag4">Web App</span>
-                    </div>
-                    <a href="https://hivedue.com/" target="_blank" class="product-link">
-                        <span data-i18n="products.hivedue.link">Visit HiveDue</span>
+                    <a href="https://u2m.io/" target="_blank" rel="noopener noreferrer" class="product-link">
+                        <span data-i18n="products.view">View product</span>
                         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17l9.2-9.2M17 17V8H8"/></svg>
                     </a>
                 </div>
 
                 <!-- Lastimo -->
-                <div class="product-card animate-on-scroll" data-tilt>
+                <div class="product-card animate-on-scroll" data-product-id="lastimo" data-tilt>
                     <div class="product-glow" style="--glow-color: #14B8A6"></div>
-                    <div class="product-badge" data-i18n="products.lastimo.badge">Routine Tracker</div>
+                    <div class="product-badge" data-i18n="products.lastimo.badge">Elapsed-Time Reminder</div>
                     <div class="product-icon product-icon-image">
                         <img src="images/product-icons/lastimo.png" alt="Lastimo app icon" width="64" height="64" loading="lazy" decoding="async">
                     </div>
                     <h3 class="product-name">Lastimo</h3>
-                    <p class="product-desc" data-i18n="products.lastimo.desc">Private routine tracker for remembering the last time you did something. Log events, review history, and understand timing without streaks, goals, or judgment.</p>
+                    <p class="product-desc" data-i18n="products.lastimo.desc">Six preset trackers reduce routine recall to a plain elapsed-time answer, with current-time logging and hide, restore, or delete controls.</p>
                     <div class="product-tags">
-                        <span data-i18n="products.lastimo.tag1">Privacy</span><span data-i18n="products.lastimo.tag2">Tracker</span><span data-i18n="products.lastimo.tag3">Routines</span><span>iOS/Android</span>
+                        <span data-i18n="products.lastimo.tag1">Six Presets</span><span data-i18n="products.lastimo.tag2">Time Since</span><span data-i18n="products.lastimo.tag3">Log Now</span><span data-i18n="products.lastimo.tag4">Hide &amp; Restore</span>
                     </div>
-                    <a href="https://lastimo.app/" target="_blank" class="product-link">
-                        <span data-i18n="products.lastimo.link">Visit Lastimo</span>
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17l9.2-9.2M17 17V8H8"/></svg>
-                    </a>
-                </div>
-
-                <!-- Glow Spin -->
-                <div class="product-card animate-on-scroll" data-tilt>
-                    <div class="product-glow" style="--glow-color: #F59E0B"></div>
-                    <div class="product-badge" data-i18n="products.glowspin.badge">Gaming</div>
-                    <div class="product-icon product-icon-image">
-                        <img src="images/product-icons/glow-spin.png" alt="Glow Spin app icon" width="64" height="64" loading="lazy" decoding="async">
-                    </div>
-                    <h3 class="product-name">Glow Spin</h3>
-                    <p class="product-desc" data-i18n="products.glowspin.desc">Neon rhythm arcade game with 500 levels. Match colors on spinning rings, test your reflexes, and climb the global leaderboard.</p>
-                    <div class="product-tags">
-                        <span data-i18n="products.glowspin.tag1">Game</span><span>Arcade</span><span>Neon</span><span data-i18n="products.glowspin.tag4">500 Levels</span>
-                    </div>
-                    <a href="https://glowspin.app/" target="_blank" class="product-link">
-                        <span data-i18n="products.glowspin.link">Play Now</span>
+                    <a href="https://lastimo.app/" target="_blank" rel="noopener noreferrer" class="product-link">
+                        <span data-i18n="products.view">View product</span>
                         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17l9.2-9.2M17 17V8H8"/></svg>
                     </a>
                 </div>
 
                 <!-- Swipe Slip -->
-                <div class="product-card animate-on-scroll" data-tilt>
+                <div class="product-card animate-on-scroll" data-product-id="swipe-slip" data-tilt>
                     <div class="product-glow" style="--glow-color: #EF4444"></div>
-                    <div class="product-badge" data-i18n="products.swipeslip.badge">Gaming</div>
+                    <div class="product-badge" data-i18n="products.swipeslip.badge">Mobile Game</div>
                     <div class="product-icon product-icon-image">
                         <img src="images/product-icons/swipe-slip.png" alt="Swipe Slip app icon" width="64" height="64" loading="lazy" decoding="async">
                     </div>
                     <h3 class="product-name">Swipe Slip</h3>
-                    <p class="product-desc" data-i18n="products.swipeslip.desc">Hyper-casual tunnel runner with 500 levels & 8 difficulty tiers. Dodge obstacles, collect power-ups, and reach the Divine tier.</p>
+                    <p class="product-desc" data-i18n="products.swipeslip.desc">A tunnel-navigation game with 200 progressive levels, designed for both portrait and landscape play.</p>
                     <div class="product-tags">
-                        <span data-i18n="products.swipeslip.tag1">Game</span><span>Runner</span><span data-i18n="products.swipeslip.tag3">Action</span><span data-i18n="products.swipeslip.tag4">Leaderboard</span>
+                        <span data-i18n="products.swipeslip.tag1">Tunnel Navigation</span><span data-i18n="products.swipeslip.tag2">200 Levels</span><span data-i18n="products.swipeslip.tag3">Portrait</span><span data-i18n="products.swipeslip.tag4">Landscape</span>
                     </div>
-                    <a href="https://swipeslip.app/" target="_blank" class="product-link">
-                        <span data-i18n="products.swipeslip.link">Play Now</span>
+                    <a href="https://swipeslip.app/" target="_blank" rel="noopener noreferrer" class="product-link">
+                        <span data-i18n="products.view">View product</span>
                         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17l9.2-9.2M17 17V8H8"/></svg>
                     </a>
                 </div>
 
                 <!-- Gridzle -->
-                <div class="product-card animate-on-scroll" data-tilt>
+                <div class="product-card animate-on-scroll" data-product-id="gridzle" data-tilt>
                     <div class="product-glow" style="--glow-color: #06B6D4"></div>
-                    <div class="product-badge" data-i18n="products.gridzle.badge">Puzzle</div>
+                    <div class="product-badge" data-i18n="products.gridzle.badge">Logic Puzzle</div>
                     <div class="product-icon product-icon-image">
                         <img src="images/product-icons/gridzle.png" alt="Gridzle app icon" width="64" height="64" loading="lazy" decoding="async">
                     </div>
                     <h3 class="product-name">Gridzle</h3>
-                    <p class="product-desc" data-i18n="products.gridzle.desc">Counts-first logic puzzle with 250 hand-crafted levels across 5 difficulty tiers. Deduce, place, and toggle the grid to match row & column targets.</p>
+                    <p class="product-desc" data-i18n="products.gridzle.desc">A counts-first puzzle with cell placement and toggling, five tiers, 250 levels, and offline-first progression.</p>
                     <div class="product-tags">
-                        <span data-i18n="products.gridzle.tag1">Puzzle</span><span data-i18n="products.gridzle.tag2">Logic</span><span data-i18n="products.gridzle.tag3">Strategy</span><span data-i18n="products.gridzle.tag4">Offline</span>
+                        <span data-i18n="products.gridzle.tag1">Counts First</span><span data-i18n="products.gridzle.tag2">250 Levels</span><span data-i18n="products.gridzle.tag3">Five Tiers</span><span data-i18n="products.gridzle.tag4">Offline</span>
                     </div>
-                    <a href="https://gridzle.app/" target="_blank" class="product-link">
-                        <span data-i18n="products.gridzle.link">Play Now</span>
+                    <a href="https://gridzle.app/" target="_blank" rel="noopener noreferrer" class="product-link">
+                        <span data-i18n="products.view">View product</span>
                         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17l9.2-9.2M17 17V8H8"/></svg>
                     </a>
                 </div>
-
-                <!-- AstralPost -->
-                <div class="product-card animate-on-scroll" data-tilt>
-                    <div class="product-glow" style="--glow-color: #A855F7"></div>
-                    <div class="product-badge" data-i18n="products.astralpost.badge">AI Reflection</div>
-                    <div class="product-icon product-icon-image">
-                        <img src="images/product-icons/astralpost.png" alt="AstralPost app icon" width="64" height="64" loading="lazy" decoding="async">
-                    </div>
-                    <h3 class="product-name">AstralPost</h3>
-                    <p class="product-desc" data-i18n="products.astralpost.desc">AI-powered cosmic journaling app for anonymous expression. Send thoughts into the universe, receive poetic reflections, and personalize the ritual with zodiac insights.</p>
-                    <div class="product-tags">
-                        <span data-i18n="products.astralpost.tag1">AI</span><span data-i18n="products.astralpost.tag2">Journal</span><span data-i18n="products.astralpost.tag3">Anonymous</span><span data-i18n="products.astralpost.tag4">Zodiac</span>
-                    </div>
-                    <a href="https://astralpost.app/" target="_blank" class="product-link">
-                        <span data-i18n="products.astralpost.link">Visit App</span>
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17l9.2-9.2M17 17V8H8"/></svg>
-                    </a>
-                </div>
+            </div>
+            <div class="portfolio-cta animate-on-scroll">
+                <p data-i18n="products.full_note">Looking for every Buhane product? Browse the authoritative company portfolio.</p>
+                <a href="https://buhane.com.tr/products/" target="_blank" rel="noopener noreferrer" class="btn-primary" data-i18n-href="products.full_href">
+                    <span data-i18n="products.full_cta">View the full Buhane portfolio</span>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17l9.2-9.2M17 17V8H8"/></svg>
+                </a>
             </div>
         </div>
     </section>
@@ -572,7 +507,7 @@
                             <span data-i18n="company.s5">Digital Marketing</span>
                         </div>
                     </div>
-                    <a href="https://buhane.com.tr/" target="_blank" class="btn-primary">
+                    <a href="https://buhane.com.tr/" target="_blank" rel="noopener noreferrer" class="btn-primary" data-i18n-href="company.href">
                         <span data-i18n="company.cta">Visit Buhane</span>
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17l9.2-9.2M17 17V8H8"/></svg>
                     </a>
@@ -606,14 +541,14 @@
                         <span class="contact-label" data-i18n="contact.email">Email</span>
                         <span class="contact-value">hey@ahmet.sh</span>
                     </a>
-                    <a href="https://www.linkedin.com/in/ahmetbutun/" target="_blank" class="contact-card">
+                    <a href="https://www.linkedin.com/in/ahmetbutun/" target="_blank" rel="noopener noreferrer" class="contact-card">
                         <div class="contact-icon">
                             <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
                         </div>
                         <span class="contact-label">LinkedIn</span>
                         <span class="contact-value">ahmetbutun</span>
                     </a>
-                    <a href="https://buhane.com.tr/" target="_blank" class="contact-card">
+                    <a href="https://buhane.com.tr/" target="_blank" rel="noopener noreferrer" class="contact-card" data-i18n-href="company.href">
                         <div class="contact-icon">
                             <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg>
                         </div>
@@ -634,9 +569,8 @@
                 </div>
                 <p class="footer-text" data-i18n="footer.text">&copy; 2026 Ahmet Bütün. Crafted with passion & code.</p>
                 <div class="footer-links">
-                    <a href="https://apps.ahmet.sh/" target="_blank" data-i18n="nav.apps">Apps</a>
-                    <a href="https://buhane.com.tr/" target="_blank">Buhane IT</a>
-                    <a href="https://thecosmicmeta.com/" target="_blank">TheCosmicMeta.com</a>
+                    <a href="https://www.linkedin.com/in/ahmetbutun/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    <a href="https://buhane.com.tr/" target="_blank" rel="noopener noreferrer" data-i18n="footer.buhane" data-i18n-href="company.href">Buhane</a>
                 </div>
             </div>
         </div>
