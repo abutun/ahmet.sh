@@ -23,7 +23,7 @@ Personal portfolio and product showcase for Ahmet Bütün, founder of Buhane Inf
 | U2M.io | SaaS tool | [u2m.io](https://u2m.io/) | Smart URL shortening with analytics, QR codes, link management, and an API. |
 | HiveDue | Community SaaS | [hivedue.com](https://hivedue.com/) | Community finance management for dues, payments, announcements, reports, and documents. |
 | Lastimo | Routine tracker | [lastimo.app](https://lastimo.app/) | Private tracker for remembering the last time something happened, without streaks or goals. |
-| Glow Spin | Game | [glowspin.app](https://glowspin.app/) | Neon rhythm arcade game with color matching, 500 levels, and leaderboard play. |
+| Glow Spin | Game | [glowspin.app](https://glowspin.app/) | Color-rhythm arcade game with color matching, 500 levels, and leaderboard play. |
 | Swipe Slip | Game | [swipeslip.app](https://swipeslip.app/) | Hyper-casual tunnel runner with 500 levels, 8 difficulty tiers, and power-ups. |
 | Gridzle | Puzzle | [gridzle.app](https://gridzle.app/) | Counts-first logic puzzle with 250 hand-crafted levels across 5 difficulty tiers. |
 | AstralPost | AI reflection | [astralpost.app](https://astralpost.app/) | AI-powered cosmic journaling app for anonymous expression and poetic reflections. |
@@ -32,11 +32,11 @@ Personal portfolio and product showcase for Ahmet Bütün, founder of Buhane Inf
 
 This repository is intentionally simple:
 
-- `index.html` defines the page structure, product cards, metadata, navigation, and outbound links.
-- `style.css` owns the visual system, responsive layout, animations, and product card styling.
-- `script.js` adds particles, scroll state, counters, tilt effects, mobile menu behavior, and interaction polish.
+- `index.html` defines the page structure, product ledger, metadata, navigation, and outbound links.
+- `style.css` owns the visual system, responsive layout, restrained motion, and product ledger styling.
+- `script.js` adds scroll state, section reveal, smooth anchors, mobile menu behavior, and interaction polish.
 - `i18n.js` provides English and Turkish translations through static dictionaries and `data-i18n` hooks.
-- `images/product-icons/` stores the product icons used by the portfolio grid.
+- `images/product-icons/` stores the product icons used by the product ledger.
 
 There is no bundler, backend, dependency install, or build step. The repository root is the static web root.
 
@@ -58,7 +58,7 @@ Any static hosting provider can serve this project. Keep root-relative assets su
 
 When adding or changing a product:
 
-1. Update the product card in `index.html`.
+1. Update the product row in `index.html`.
 2. Add or update the matching English and Turkish strings in `i18n.js`.
 3. Add the product icon under `images/product-icons/` when the card uses an image.
 4. Update the hero and about statistics if the product count or AI model count changes.
