@@ -23,10 +23,9 @@
             'meta.description': 'Ahmet Bütün is a software architect, product builder, and founder of Buhane Bilgi Teknolojileri. Explore selected apps, SaaS products, and games.',
 
             // Hero
-            'hero.badge': 'Software architecture & product development',
+            'hero.badge': 'Founder · Architect',
             'hero.title1': 'Software Architect',
             'hero.title2': '& <span class="gradient-text">Product Builder</span>',
-            'hero.title3': 'Building since <span class="gradient-text year-counter" id="yearCounter">2001</span>',
             'hero.subtitle': 'I design software systems and build apps, SaaS products, and games through <strong>Buhane Bilgi Teknolojileri</strong>, the company I founded.',
             'hero.cta1': 'Explore My Work',
             'hero.cta2': 'My Story',
@@ -37,8 +36,8 @@
             'hero.scroll': 'Scroll to explore',
 
             // About
-            'about.tag': '// About Me',
-            'about.title': 'Crafting Digital <span class="gradient-text">Excellence</span>',
+            'about.tag': '// Founder',
+            'about.title': 'Building systems.<br>Solving real problems.',
             'about.lead': "I'm <strong>Ahmet Bütün</strong>, a Computer Engineer from Yildiz Technical University with over two decades of passion for building software that matters.",
             'about.p1': 'I founded <a class="inline-link" href="https://buhane.com.tr/"><strong>Buhane Bilgi Teknolojileri</strong></a>, the company behind my product work in apps, SaaS, and games. This personal site highlights selected work; Buhane is the authoritative home for the complete portfolio.',
             'about.p2': 'My journey spans from crafting security tools like <strong>Nova W-SPY</strong> to building open-source frameworks like <strong>Crexta</strong>, and now pioneering AI-driven creative tools. I believe technology should empower people to do extraordinary things.',
@@ -51,11 +50,11 @@
 
             // Selected work
             'products.tag': '// Selected Work',
-            'products.title': 'Products I <span class="gradient-text">Build</span>',
+            'products.title': "A selection of products I've built.",
             'products.desc': 'A curated look at products I build through Buhane. The company site maintains the complete portfolio.',
             'products.view': 'View product',
             'products.full_note': 'Looking for every Buhane product? Browse the authoritative company portfolio.',
-            'products.full_cta': 'View the full Buhane portfolio',
+            'products.full_cta': 'View full Buhane portfolio',
             'products.full_href': 'https://buhane.com.tr/products/',
             'products.vynix.badge': 'Creative Workflows',
             'products.vynix.desc': 'A cross-platform app for AI-assisted text, image, audio, and video workflows—selected for its multimodal creation flow.',
@@ -126,7 +125,7 @@
 
             // Contact
             'contact.tag': '// Get in Touch',
-            'contact.title': "Let's Build Something <span class=\"gradient-text\">Amazing</span>",
+            'contact.title': "Let's build something great.",
             'contact.desc': 'Have an idea? Need a technology partner? Let\'s make it happen.',
             'contact.email': 'Email',
             'contact.website': 'Website',
@@ -152,10 +151,9 @@
             'meta.description': 'Ahmet Bütün; yazılım mimarı, ürün geliştirici ve Buhane Bilgi Teknolojileri kurucusudur. Seçili uygulama, SaaS ürünü ve oyunları keşfedin.',
 
             // Hero
-            'hero.badge': 'Yazılım mimarisi ve ürün geliştirme',
+            'hero.badge': 'Kurucu · Mimar',
             'hero.title1': 'Yazılım Mimarı',
             'hero.title2': 've <span class="gradient-text">Ürün Geliştirici</span>',
-            'hero.title3': '<span class="gradient-text year-counter" id="yearCounter">2001</span>\'den beri üretiyor',
             'hero.subtitle': 'Yazılım sistemleri tasarlıyor; kurduğum <strong>Buhane Bilgi Teknolojileri</strong> çatısı altında uygulamalar, SaaS ürünleri ve oyunlar geliştiriyorum.',
             'hero.cta1': 'Çalışmalarımı Keşfet',
             'hero.cta2': 'Hikayem',
@@ -166,8 +164,8 @@
             'hero.scroll': 'Keşfetmek için kaydır',
 
             // About
-            'about.tag': '// Hakkımda',
-            'about.title': 'Dijital <span class="gradient-text">Mükemmellik</span> Yaratmak',
+            'about.tag': '// Kurucu',
+            'about.title': 'Sistemler kurmak.<br>Gerçek problemleri çözmek.',
             'about.lead': 'Ben <strong>Ahmet Bütün</strong>, Yıldız Teknik Üniversitesi Bilgisayar Mühendisliği mezunuyum. Yirmi yılı aşkın süredir anlamlı yazılımlar geliştirme tutkusuyla çalışıyorum.',
             'about.p1': 'Uygulama, SaaS ve oyun çalışmalarımın arkasındaki şirket olan <a class="inline-link" href="https://buhane.com.tr/tr/"><strong>Buhane Bilgi Teknolojileri</strong></a>\'ni kurdum. Bu kişisel site seçili çalışmaları öne çıkarır; eksiksiz portföyün yetkili adresi Buhane\'dir.',
             'about.p2': 'Yolculuğum <strong>Nova W-SPY</strong> gibi güvenlik araçları geliştirmekten, <strong>Crexta</strong> gibi açık kaynak çerçeveler oluşturmaya ve şimdi de yapay zeka destekli yaratıcı araçlara öncülük etmeye uzanıyor. Teknolojinin insanları olağanüstü şeyler yapmaya güçlendirmesi gerektiğine inanıyorum.',
@@ -180,11 +178,11 @@
 
             // Seçili çalışmalar
             'products.tag': '// Seçili Çalışmalar',
-            'products.title': 'Geliştirdiğim <span class="gradient-text">Ürünler</span>',
+            'products.title': 'Geliştirdiğim ürünlerden bir seçki.',
             'products.desc': 'Buhane çatısı altında geliştirdiğim ürünlerden seçilmiş bir görünüm. Eksiksiz portföy şirket sitesinde tutulur.',
             'products.view': 'Ürünü incele',
             'products.full_note': 'Tüm Buhane ürünlerini mi arıyorsunuz? Yetkili şirket portföyüne göz atın.',
-            'products.full_cta': 'Buhane portföyünün tamamını görün',
+            'products.full_cta': 'Tüm Buhane portföyünü görün',
             'products.full_href': 'https://buhane.com.tr/tr/urunler/',
             'products.vynix.badge': 'Yaratıcı İş Akışları',
             'products.vynix.desc': 'Yapay zeka destekli metin, görsel, ses ve video iş akışları sunan çapraz platform uygulaması; çok modlu üretim akışıyla bu seçkide.',
@@ -255,7 +253,7 @@
 
             // Contact
             'contact.tag': '// İletişim',
-            'contact.title': 'Birlikte Harika Bir Şey <span class="gradient-text">Yaratalım</span>',
+            'contact.title': 'Birlikte güçlü bir şey inşa edelim.',
             'contact.desc': 'Bir fikriniz mi var? Teknoloji ortağına mı ihtiyacınız var? Hayata geçirelim.',
             'contact.email': 'E-posta',
             'contact.website': 'Web Sitesi',
@@ -288,7 +286,7 @@
             }
         });
 
-        // data-i18n-template: innerHTML with dynamic content (hero title3)
+        // data-i18n-template: innerHTML with dynamic content
         document.querySelectorAll('[data-i18n-template]').forEach(el => {
             const key = el.getAttribute('data-i18n-template');
             if (t[key] !== undefined) {
