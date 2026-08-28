@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en" data-locale="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Ahmet Bütün | Software Architect &amp; Product Builder</title>
+    <meta name="description" content="Ahmet Bütün is a software architect, founder, and independent product builder behind Buhane Bilgi Teknolojileri.">
+    <link rel="canonical" href="https://ahmet.sh/">
+    <meta property="og:type" content="profile">
+    <meta property="og:title" content="Ahmet Bütün | Software Architect &amp; Product Builder">
+    <meta property="og:description" content="A personal architecture dossier covering selected products, career timeline, and founder work by Ahmet Bütün.">
+    <meta property="og:url" content="https://ahmet.sh/">
+    <meta property="og:site_name" content="Ahmet Bütün">
+    <meta property="og:image" content="https://ahmet.sh/logo.png">
+    <meta property="og:image:alt" content="Ahmet Bütün">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Ahmet Bütün | Software Architect &amp; Product Builder">
+    <meta name="twitter:description" content="Selected product work and software architecture by Ahmet Bütün, founder of Buhane Bilgi Teknolojileri.">
+    <meta name="twitter:image" content="https://ahmet.sh/logo.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "WebSite",
+                "@id": "https://ahmet.sh/#website",
+                "url": "https://ahmet.sh/",
+                "name": "Ahmet Bütün",
+                "description": "The personal website and selected product work of software architect Ahmet Bütün.",
+                "inLanguage": ["en", "tr"],
+                "author": { "@id": "https://ahmet.sh/#person" }
+            },
+            {
+                "@type": "Person",
+                "@id": "https://ahmet.sh/#person",
+                "name": "Ahmet Bütün",
+                "url": "https://ahmet.sh/",
+                "image": "https://ahmet.sh/logo.png",
+                "jobTitle": "Software Architect",
+                "sameAs": [
+                    "https://www.linkedin.com/in/ahmetbutun/"
+                ],
+                "worksFor": { "@id": "https://buhane.com.tr/#organization" }
+            },
+            {
+                "@type": "Organization",
+                "@id": "https://buhane.com.tr/#organization",
+                "name": "Buhane Bilgi Teknolojileri",
+                "url": "https://buhane.com.tr/",
+                "founder": { "@id": "https://ahmet.sh/#person" }
+            }
+        ]
+    }
+    </script>
+</head>
+<body>
+    <a class="skip-link" href="#main" data-i18n="nav.skip">Skip to content</a>
+
+    <header class="nav-edge" aria-label="Primary navigation">
+        <a class="wordmark" href="#hero" aria-label="Ahmet Bütün home">
+            <span>ahmet.sh</span>
+            <span class="wordmark-mark" aria-hidden="true"></span>
+        </a>
+        <div class="nav-actions">
+            <button class="locale-toggle" id="localeToggle" type="button" aria-label="Dili Türkçe yap" data-i18n-aria-label="nav.language">
+                <span class="locale-toggle__meta" data-i18n="nav.langMeta">language</span>
+                <span class="locale-toggle__value" id="localeValue">TR</span>
+            </button>
+            <a class="nav-cta" href="#contact" data-i18n="nav.contact">Contact</a>
+        </div>
+    </header>
+
+    <main id="main">
+        <section class="hero shell" id="hero">
+            <div class="rails" aria-hidden="true"></div>
+            <div class="hero-copy" data-reveal>
+                <p class="orientation" data-i18n="hero.orientation">software systems, products, and company-building since 2001</p>
+                <h1 data-i18n-html="hero.title">systems first.<br>products by hand.</h1>
+                <p class="hero-lede" data-i18n-html="hero.lede">
+                    I design software systems and build apps, SaaS products, and games through <strong>Buhane Bilgi Teknolojileri</strong>, the company I founded.
+                </p>
+                <div class="hero-actions" aria-label="Primary actions">
+                    <a class="text-cta" href="#products" data-i18n="hero.products">View selected work</a>
+                    <a class="text-cta text-cta--quiet" href="https://buhane.com.tr/" target="_blank" rel="noopener noreferrer" data-i18n="hero.company">Open Buhane</a>
+                </div>
+            </div>
+
+            <figure class="system-map" aria-labelledby="map-title" data-reveal>
+                <figcaption id="map-title" class="sr-only" data-i18n="map.caption">A spatial map of Ahmet Bütün's work across architecture, products, AI models, Buhane, and users.</figcaption>
+                <svg class="map-lines" viewBox="0 0 720 520" preserveAspectRatio="none" aria-hidden="true">
+                    <path class="map-line" d="M360 258 L158 118"></path>
+                    <path class="map-line" d="M360 258 L560 116"></path>
+                    <path class="map-line" d="M360 258 L130 386"></path>
+                    <path class="map-line" d="M360 258 L560 388"></path>
+                    <path class="map-line map-line--signal" d="M360 258 L360 78"></path>
+                    <path class="map-line map-line--signal" d="M360 258 L360 448"></path>
+                </svg>
+                <div class="map-node map-node--core">
+                    <span class="node-kicker" data-i18n="map.coreKicker">principal node</span>
+                    <a class="node-link" href="#timeline">Ahmet Bütün</a>
+                    <em data-i18n="map.coreMeta">architect / founder / builder</em>
+                </div>
+                <div class="map-node map-node--architecture">
+                    <span class="node-kicker">A01</span>
+                    <a class="node-link" href="#expertise" data-i18n="map.architecture">Architecture</a>
+                    <em>Java EE · Spring · Microservices</em>
+                </div>
+                <div class="map-node map-node--products">
+                    <span class="node-kicker">P10</span>
+                    <a class="node-link" href="#products" data-i18n="map.products">10 live products</a>
+                    <em data-i18n="map.productsMeta">apps, SaaS, games</em>
+                </div>
+                <div class="map-node map-node--models">
+                    <span class="node-kicker">AI</span>
+                    <a class="node-link" href="#products">120+</a>
+                    <em data-i18n="map.modelsMeta">models integrated</em>
+                </div>
+                <div class="map-node map-node--company">
+                    <span class="node-kicker">BHN</span>
+                    <a class="node-link" href="#company" data-i18n="map.company">Buhane IT</a>
+                    <em data-i18n="map.companyMeta">founded 2018</em>
+                </div>
+                <div class="map-node map-node--users">
+                    <span class="node-kicker">U</span>
+                    <a class="node-link" href="#products">10K+</a>
+                    <em data-i18n="map.usersMeta">active users</em>
+                </div>
+                <div class="map-register map-register--a" aria-hidden="true"></div>
+                <div class="map-register map-register--b" aria-hidden="true"></div>
+            </figure>
+        </section>
+
+        <section class="metric-strip shell" aria-label="Portfolio metrics">
+            <div class="metric">
+                <strong>2001</strong>
+                <span data-i18n="metrics.since">building software since</span>
+            </div>
+            <div class="metric">
+                <strong>10</strong>
+                <span data-i18n="metrics.products">live products</span>
+            </div>
+            <div class="metric">
+                <strong>120+</strong>
+                <span data-i18n="metrics.models">AI models integrated</span>
+            </div>
+            <div class="metric">
+                <strong>10K+</strong>
+                <span data-i18n="metrics.users">active users</span>
+            </div>
+        </section>
+
+        <section class="dossier shell" id="about">
+            <div class="section-object" aria-hidden="true">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="dossier-copy">
+                <h2 data-i18n-html="about.title">a builder’s dossier,<br>not a developer brochure.</h2>
+                <p data-i18n-html="about.lede">
+                    I am a Computer Engineer from Yıldız Technical University with a long-running focus on software architecture, product engineering, and independent product development.
+                </p>
+                <p data-i18n-html="about.body">
+                    My work spans enterprise systems, security tools such as <strong>Nova W-SPY</strong>, open-source frameworks such as <strong>Crexta</strong>, and current AI-driven products built under Buhane.
+                </p>
+            </div>
+        </section>
+
+        <section class="products shell" id="products">
+            <div class="section-head">
+                <h2 data-i18n-html="products.title">selected products,<br>set as an index.</h2>
+                <p data-i18n="products.desc">A focused view of products I build through Buhane. The company site remains the complete portfolio.</p>
+                <a class="text-cta" href="https://buhane.com.tr/products/" target="_blank" rel="noopener noreferrer" data-i18n-href="products.fullHref" data-i18n="products.full">View full Buhane portfolio</a>
+            </div>
+
+            <div class="product-ledger">
+                <article class="product-entry product-entry--featured">
+                    <span class="product-index">01</span>
+                    <div class="product-icon product-icon--mono" aria-hidden="true">CM</div>
+                    <div class="product-copy">
+                        <p class="product-type" data-i18n="product.cosmic.type">AI Platform</p>
+                        <h3>TheCosmicMeta.com</h3>
+                        <p data-i18n="product.cosmic.desc">AI-powered technology news and content platform with curated insight on emerging digital trends.</p>
+                    </div>
+                    <div class="product-tags" aria-label="Product tags">
+                        <span data-i18n="product.cosmic.tag1">Technology News</span>
+                        <span data-i18n="product.cosmic.tag2">AI Insight</span>
+                        <span data-i18n="product.cosmic.tag3">Publishing</span>
+                    </div>
+                    <a class="product-link" href="https://thecosmicmeta.com/" target="_blank" rel="noopener noreferrer" data-i18n="products.view">View product</a>
+                </article>
+
+                <article class="product-entry">
+                    <span class="product-index">02</span>
+                    <div class="product-icon">
+                        <img src="images/product-icons/vynix.png" alt="Vynix app icon" width="96" height="96" loading="lazy" decoding="async">
+                    </div>
+                    <div class="product-copy">
+                        <p class="product-type" data-i18n="product.vynix.type">Creative AI</p>
+                        <h3>Vynix</h3>
+                        <p data-i18n="product.vynix.desc">A cross-platform app for AI-assisted text, image, audio, and video workflows.</p>
+                    </div>
+                    <div class="product-tags">
+                        <span data-i18n="product.vynix.tag1">Text</span>
+                        <span data-i18n="product.vynix.tag2">Image</span>
+                        <span data-i18n="product.vynix.tag3">Audio</span>
+                        <span data-i18n="product.vynix.tag4">Video</span>
+                    </div>
+                    <a class="product-link" href="https://vynix.app/" target="_blank" rel="noopener noreferrer" data-i18n="products.view">View product</a>
+                </article>
+
+                <article class="product-entry">
+                    <span class="product-index">03</span>
+                    <div class="product-icon">
+                        <img src="images/product-icons/moodjot.png" alt="MoodJot app icon" width="96" height="96" loading="lazy" decoding="async">
+                    </div>
+                    <div class="product-copy">
+                        <p class="product-type" data-i18n="product.moodjot.type">Mood &amp; Journaling</p>
+                        <h3>MoodJot</h3>
+                        <p data-i18n="product.moodjot.desc">A focused capture flow for mood entries and journal notes, with optional photos and reminders.</p>
+                    </div>
+                    <div class="product-tags">
+                        <span data-i18n="product.moodjot.tag1">Mood Entries</span>
+                        <span data-i18n="product.moodjot.tag2">Journal Notes</span>
+                        <span data-i18n="product.moodjot.tag3">Photos</span>
+                        <span data-i18n="product.moodjot.tag4">Reminders</span>
+                    </div>
+                    <a class="product-link" href="https://moodjot.app/" target="_blank" rel="noopener noreferrer" data-i18n="products.view">View product</a>
+                </article>
+
+                <article class="product-entry">
+                    <span class="product-index">04</span>
+                    <div class="product-icon product-icon--mono" aria-hidden="true">U2M</div>
+                    <div class="product-copy">
+                        <p class="product-type" data-i18n="product.u2m.type">Web Utility</p>
+                        <h3>U2M.io</h3>
+                        <p data-i18n="product.u2m.desc">Smart URL shortening with analytics, QR codes, link management, and an API.</p>
+                    </div>
+                    <div class="product-tags">
+                        <span data-i18n="product.u2m.tag1">URL Shortening</span>
+                        <span data-i18n="product.u2m.tag2">API Docs</span>
+                        <span data-i18n="product.u2m.tag3">Analytics</span>
+                    </div>
+                    <a class="product-link" href="https://u2m.io/" target="_blank" rel="noopener noreferrer" data-i18n="products.view">View product</a>
+                </article>
+
+                <article class="product-entry">
+                    <span class="product-index">05</span>
+                    <div class="product-icon">
+                        <img src="images/product-icons/hivedue.png" alt="HiveDue app icon" width="96" height="96" loading="lazy" decoding="async">
+                    </div>
+                    <div class="product-copy">
+                        <p class="product-type" data-i18n="product.hivedue.type">Community SaaS</p>
+                        <h3>HiveDue</h3>
+                        <p data-i18n="product.hivedue.desc">Community finance management for dues, payments, announcements, reports, and documents.</p>
+                    </div>
+                    <div class="product-tags">
+                        <span data-i18n="product.hivedue.tag1">Dues</span>
+                        <span data-i18n="product.hivedue.tag2">Payments</span>
+                        <span data-i18n="product.hivedue.tag3">Reports</span>
+                    </div>
+                    <a class="product-link" href="https://hivedue.com/" target="_blank" rel="noopener noreferrer" data-i18n="products.view">View product</a>
+                </article>
+
+                <article class="product-entry">
+                    <span class="product-index">06</span>
+                    <div class="product-icon">
+                        <img src="images/product-icons/lastimo.png" alt="Lastimo app icon" width="96" height="96" loading="lazy" decoding="async">
+                    </div>
+                    <div class="product-copy">
+                        <p class="product-type" data-i18n="product.lastimo.type">Elapsed-Time Reminder</p>
+                        <h3>Lastimo</h3>
+                        <p data-i18n="product.lastimo.desc">Private tracker for remembering the last time something happened, without streaks or goals.</p>
+                    </div>
+                    <div class="product-tags">
+                        <span data-i18n="product.lastimo.tag1">Six Presets</span>
+                        <span data-i18n="product.lastimo.tag2">Time Since</span>
+                        <span data-i18n="product.lastimo.tag3">Log Now</span>
+                    </div>
+                    <a class="product-link" href="https://lastimo.app/" target="_blank" rel="noopener noreferrer" data-i18n="products.view">View product</a>
+                </article>
+
+                <article class="product-entry">
+                    <span class="product-index">07</span>
+                    <div class="product-icon">
+                        <img src="images/product-icons/glow-spin.png" alt="Glow Spin app icon" width="96" height="96" loading="lazy" decoding="async">
+                    </div>
+                    <div class="product-copy">
+                        <p class="product-type" data-i18n="product.glowspin.type">Arcade Game</p>
+                        <h3>Glow Spin</h3>
+                        <p data-i18n="product.glowspin.desc">Color-rhythm arcade game with color matching, 500 levels, and leaderboard play.</p>
+                    </div>
+                    <div class="product-tags">
+                        <span data-i18n="product.glowspin.tag1">Color Matching</span>
+                        <span data-i18n="product.glowspin.tag2">500 Levels</span>
+                        <span data-i18n="product.glowspin.tag3">Leaderboard</span>
+                    </div>
+                    <a class="product-link" href="https://glowspin.app/" target="_blank" rel="noopener noreferrer" data-i18n="products.view">View product</a>
+                </article>
+
+                <article class="product-entry">
+                    <span class="product-index">08</span>
+                    <div class="product-icon">
+                        <img src="images/product-icons/swipe-slip.png" alt="Swipe Slip app icon" width="96" height="96" loading="lazy" decoding="async">
+                    </div>
+                    <div class="product-copy">
+                        <p class="product-type" data-i18n="product.swipeslip.type">Mobile Game</p>
+                        <h3>Swipe Slip</h3>
+                        <p data-i18n="product.swipeslip.desc">A hyper-casual tunnel runner with 500 levels, 8 difficulty tiers, and power-ups.</p>
+                    </div>
+                    <div class="product-tags">
+                        <span data-i18n="product.swipeslip.tag1">Tunnel Navigation</span>
+                        <span data-i18n="product.swipeslip.tag2">500 Levels</span>
+                        <span data-i18n="product.swipeslip.tag3">Power-ups</span>
+                    </div>
+                    <a class="product-link" href="https://swipeslip.app/" target="_blank" rel="noopener noreferrer" data-i18n="products.view">View product</a>
+                </article>
+
+                <article class="product-entry">
+                    <span class="product-index">09</span>
+                    <div class="product-icon">
+                        <img src="images/product-icons/gridzle.png" alt="Gridzle app icon" width="96" height="96" loading="lazy" decoding="async">
+                    </div>
+                    <div class="product-copy">
+                        <p class="product-type" data-i18n="product.gridzle.type">Logic Puzzle</p>
+                        <h3>Gridzle</h3>
+                        <p data-i18n="product.gridzle.desc">Counts-first logic puzzle with 250 hand-crafted levels across five difficulty tiers.</p>
+                    </div>
+                    <div class="product-tags">
+                        <span data-i18n="product.gridzle.tag1">Counts First</span>
+                        <span data-i18n="product.gridzle.tag2">250 Levels</span>
+                        <span data-i18n="product.gridzle.tag3">Offline</span>
+                    </div>
+                    <a class="product-link" href="https://gridzle.app/" target="_blank" rel="noopener noreferrer" data-i18n="products.view">View product</a>
+                </article>
+
+                <article class="product-entry">
+                    <span class="product-index">10</span>
+                    <div class="product-icon">
+                        <img src="images/product-icons/astralpost.png" alt="AstralPost app icon" width="96" height="96" loading="lazy" decoding="async">
+                    </div>
+                    <div class="product-copy">
+                        <p class="product-type" data-i18n="product.astralpost.type">AI Reflection</p>
+                        <h3>AstralPost</h3>
+                        <p data-i18n="product.astralpost.desc">AI-powered cosmic journaling app for anonymous expression and poetic reflections.</p>
+                    </div>
+                    <div class="product-tags">
+                        <span data-i18n="product.astralpost.tag1">Journaling</span>
+                        <span data-i18n="product.astralpost.tag2">Reflection</span>
+                        <span data-i18n="product.astralpost.tag3">AI Writing</span>
+                    </div>
+                    <a class="product-link" href="https://astralpost.app/" target="_blank" rel="noopener noreferrer" data-i18n="products.view">View product</a>
+                </article>
+            </div>
+        </section>
+
+        <section class="timeline shell" id="timeline">
+            <header class="timeline-head">
+                <h2 data-i18n-html="timeline.title">the long arc matters.</h2>
+                <p data-i18n="timeline.desc">The work is not a recent pose. It has moved through education, enterprise engineering, security, open source, company-building, and current AI products.</p>
+            </header>
+            <ol class="timeline-list">
+                <li>
+                    <span class="timeline-year">1999-2005</span>
+                    <div>
+                        <h3 data-i18n="timeline.t1.title">Yıldız Technical University</h3>
+                        <p data-i18n="timeline.t1.desc">Computer Engineering degree and the technical foundation for a career in software architecture.</p>
+                    </div>
+                </li>
+                <li>
+                    <span class="timeline-year">2001-2010</span>
+                    <div>
+                        <h3 data-i18n="timeline.t2.title">Enterprise Software Engineering</h3>
+                        <p data-i18n="timeline.t2.desc">Deep work in Java EE, Spring Framework, and microservices architecture for mission-critical systems.</p>
+                    </div>
+                </li>
+                <li>
+                    <span class="timeline-year">2010-2017</span>
+                    <div>
+                        <h3 data-i18n="timeline.t3.title">Security &amp; Open Source</h3>
+                        <p data-i18n="timeline.t3.desc">Created Nova W-SPY and Crexta, and led development on the Qualist Business Operations Platform.</p>
+                    </div>
+                </li>
+                <li>
+                    <span class="timeline-year">2018</span>
+                    <div>
+                        <h3 data-i18n="timeline.t4.title">Founded Buhane IT</h3>
+                        <p data-i18n="timeline.t4.desc">Launched Buhane Bilgi Teknolojileri as a software design, consulting, e-commerce, and AI services company.</p>
+                    </div>
+                </li>
+                <li>
+                    <span class="timeline-year" data-i18n="timeline.nowYear">2021-present</span>
+                    <div>
+                        <h3 data-i18n="timeline.t5.title">AI &amp; Product Innovation</h3>
+                        <p data-i18n="timeline.t5.desc">Continues to build products across creative tools, personal utilities, business software, and games through Buhane.</p>
+                    </div>
+                </li>
+            </ol>
+        </section>
+
+        <section class="technical shell" id="expertise">
+            <div class="section-head">
+                <h2 data-i18n-html="technical.title">technical index.</h2>
+                <p data-i18n="technical.desc">A compact view of the capabilities behind the product work.</p>
+            </div>
+            <dl class="spec-sheet">
+                <div>
+                    <dt data-i18n="technical.row1.key">Architecture</dt>
+                    <dd data-i18n="technical.row1.val">System design, domain modeling, product foundations</dd>
+                    <dd>Java EE · Spring · Microservices</dd>
+                </div>
+                <div>
+                    <dt data-i18n="technical.row2.key">Frontend &amp; Mobile</dt>
+                    <dd data-i18n="technical.row2.val">Web apps, cross-platform apps, product interfaces</dd>
+                    <dd>HTML · CSS · JavaScript · Mobile</dd>
+                </div>
+                <div>
+                    <dt data-i18n="technical.row3.key">AI &amp; Data</dt>
+                    <dd data-i18n="technical.row3.val">Model integration, creative AI flows, analytics surfaces</dd>
+                    <dd>120+ AI models</dd>
+                </div>
+                <div>
+                    <dt data-i18n="technical.row4.key">Infrastructure</dt>
+                    <dd data-i18n="technical.row4.val">APIs, service boundaries, deployment surfaces</dd>
+                    <dd>SaaS · API · Cloud</dd>
+                </div>
+            </dl>
+        </section>
+
+        <section class="company shell" id="company">
+            <div class="company-statement">
+                <h2>Buhane Bilgi Teknolojileri</h2>
+                <p data-i18n="company.desc">The company behind the product work, software design, technology consulting, e-commerce, AI services, and digital marketing.</p>
+                <a class="text-cta" href="https://buhane.com.tr/" target="_blank" rel="noopener noreferrer" data-i18n="company.cta">Visit Buhane</a>
+            </div>
+            <ul class="service-matrix" aria-label="Buhane services">
+                <li><span>01</span><strong data-i18n="company.s1">Software Design</strong></li>
+                <li><span>02</span><strong data-i18n="company.s2">AI Services</strong></li>
+                <li><span>03</span><strong data-i18n="company.s3">E-Commerce</strong></li>
+                <li><span>04</span><strong data-i18n="company.s4">Consulting</strong></li>
+                <li><span>05</span><strong data-i18n="company.s5">Digital Marketing</strong></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="colophon shell" id="contact">
+        <p data-i18n-html="footer.copy">
+            Ahmet Bütün. Software architect, founder, and independent product builder. Built as a personal architecture dossier for <a href="https://ahmet.sh/">ahmet.sh</a>.
+        </p>
+        <nav class="footer-links" aria-label="Contact links">
+            <a href="mailto:hello@ahmet.sh">hello@ahmet.sh</a>
+            <a href="https://buhane.com.tr/" target="_blank" rel="noopener noreferrer">buhane.com.tr</a>
+            <a href="https://apps.ahmet.sh/" target="_blank" rel="noopener noreferrer">apps.ahmet.sh</a>
+            <a href="https://www.linkedin.com/in/ahmetbutun/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </nav>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+</html>

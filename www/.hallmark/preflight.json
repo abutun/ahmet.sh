@@ -1,0 +1,27 @@
+{
+  "date": "2026-08-28",
+  "target": "www",
+  "source": "repository root static site",
+  "findings": {
+    "target_state": "www directory was absent before this run",
+    "framework": "vanilla HTML/CSS/JavaScript, no build step",
+    "font_stack": "root index.html loaded Inter, Space Grotesk, and JetBrains Mono",
+    "palette": "root style.css used graphite, warm ivory, and amber signal values",
+    "motion": "no motion library detected",
+    "spacing": "custom CSS spacing scale detected in root stylesheet"
+  },
+  "preserved": [
+    "static site architecture",
+    "single-page information architecture",
+    "dark graphite and warm ivory brand direction",
+    "product list and factual statistics",
+    "English and Turkish language support"
+  ],
+  "introduced": [
+    "Hallmark token system",
+    "Map / Diagram macrostructure",
+    "N9 edge-aligned minimal navigation",
+    "Ft4 dense typographic colophon",
+    "additive www static root"
+  ]
+}
