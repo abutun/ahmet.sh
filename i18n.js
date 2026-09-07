@@ -107,6 +107,11 @@
             'products.astralpost.tag1': 'Journaling',
             'products.astralpost.tag2': 'Reflection',
             'products.astralpost.tag3': 'AI Writing',
+            'products.rulr.badge': 'Fictional World',
+            'products.rulr.desc': 'Public web experience for exploring the fictional RULR Countries world, with country status, fictional rivalries, activity, and leaderboard surfaces.',
+            'products.rulr.tag1': 'Fictional Countries',
+            'products.rulr.tag2': 'Country Status',
+            'products.rulr.tag3': 'Leaderboard',
 
             'expertise.tag': '04 / Career Timeline',
             'expertise.title': 'A long arc of systems, products, and independent building.',
@@ -249,6 +254,11 @@
             'products.astralpost.tag1': 'Günlük',
             'products.astralpost.tag2': 'Yansıma',
             'products.astralpost.tag3': 'AI Yazım',
+            'products.rulr.badge': 'Kurgusal Dünya',
+            'products.rulr.desc': 'Kurgusal RULR Countries dünyasını; ülke durumu, kurgusal rekabetler, aktivite ve liderlik yüzeyleriyle keşfetmeye yarayan herkese açık web deneyimi.',
+            'products.rulr.tag1': 'Kurgusal Ülkeler',
+            'products.rulr.tag2': 'Ülke Durumu',
+            'products.rulr.tag3': 'Liderlik',
 
             'expertise.tag': '04 / Kariyer Zaman Çizelgesi',
             'expertise.title': 'Sistemler, ürünler ve bağımsız üretimle geçen uzun bir çizgi.',

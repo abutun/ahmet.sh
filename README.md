@@ -7,7 +7,7 @@ Personal portfolio and product showcase for Ahmet Bütün, founder of Buhane Inf
 ## Snapshot
 
 - 24+ years of engineering experience
-- 10 live products
+- 11 live products
 - 120+ AI models integrated across products
 - 10K+ active users
 - Bilingual content: English and Turkish
@@ -27,6 +27,7 @@ Personal portfolio and product showcase for Ahmet Bütün, founder of Buhane Inf
 | Swipe Slip | Game | [swipeslip.app](https://swipeslip.app/) | Hyper-casual tunnel runner with 500 levels, 8 difficulty tiers, and power-ups. |
 | Gridzle | Puzzle | [gridzle.app](https://gridzle.app/) | Counts-first logic puzzle with 250 hand-crafted levels across 5 difficulty tiers. |
 | AstralPost | AI reflection | [astralpost.app](https://astralpost.app/) | AI-powered cosmic journaling app for anonymous expression and poetic reflections. |
+| RULR | Fictional world | [rulr.lol](https://rulr.lol/) | Public web experience for exploring the fictional RULR Countries world, with country status, fictional rivalries, activity, and leaderboard surfaces. |
 
 ## Technology
 
