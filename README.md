@@ -7,7 +7,7 @@ Personal portfolio and product showcase for Ahmet Bütün, founder of Buhane Inf
 ## Snapshot
 
 - 24+ years of engineering experience
-- 11 live products
+- 13 live products
 - 120+ AI models integrated across products
 - 10K+ active users
 - Bilingual content: English and Turkish
@@ -28,6 +28,8 @@ Personal portfolio and product showcase for Ahmet Bütün, founder of Buhane Inf
 | Gridzle | Puzzle | [gridzle.app](https://gridzle.app/) | Counts-first logic puzzle with 250 hand-crafted levels across 5 difficulty tiers. |
 | AstralPost | AI reflection | [astralpost.app](https://astralpost.app/) | AI-powered cosmic journaling app for anonymous expression and poetic reflections. |
 | RULR | Fictional world | [rulr.lol](https://rulr.lol/) | Public web experience for exploring the fictional RULR Countries world, with country status, fictional rivalries, activity, and leaderboard surfaces. |
+| Mintropolis | NFT atlas | [mintropolis.io](https://mintropolis.io/) | Wallet-native atlas and community layer for discovering city Embassies, collecting free Passport stamps, and following official NFT drops. |
+| LeaseLore | Rental intelligence | [leaselore.com](https://leaselore.com/) | Address-level rental decision app for checking resident reviews, home scores, red flags, and score confidence before signing a lease. |
 
 ## Technology
 
