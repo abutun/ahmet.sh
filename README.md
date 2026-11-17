@@ -59,21 +59,35 @@ Any static hosting provider can serve this project. Keep root-relative assets su
 
 ## Personal wallet incident record
 
-`/wallet-incident/` contains an English/Turkish public account, the two reported
-Suited Ape item links and an IC3 complaint summary. Its standalone language module
+`/wallet-incident/` contains a detailed English/Turkish public account, the two reported
+Suited Ape item links, a dated timeline, transaction evidence and an IC3 complaint summary.
+`/wallet-incident/nfts/` lists all 109 individually documented incident purchases,
+with progressive collection/token/contract search and a network filter. The owner's
+approximately 189 overall estimate is distinguished from the 109 itemized records;
+87 historical receipts not confirmed stolen are excluded. Ethereum local log verification
+and Robinhood retained marketplace sales are labeled separately. Its standalone language module
 shares the homepage's language preference without loading homepage metadata.
 English content remains readable without JavaScript. Private reports and tracking
 identifiers are not part of the site; only deliberately authored public facts and
-the original two NFT images belong in this directory.
+the original two NFT images belong in this directory. The JSON register contains only
+allowlisted asset identities and historical transaction evidence, with no buyer/contact directory.
+
+After changing the sanitized register or bilingual copy, regenerate its static HTML:
+
+```bash
+node scripts/generate-nft-register.mjs
+node scripts/generate-nft-register.mjs --check
+```
 
 Run the dependency-free checks with Node.js 22 or newer:
 
 ```bash
-node --test tests/wallet-incident.test.mjs
+node --test tests/*.test.mjs
 ```
 
-Publication must copy only the reviewed page assets and the updated homepage,
-language file and sitemap. Do not deploy `.git`, tests, working notes or source
+Publication must copy only the explicitly reviewed public file manifest. Preserve old
+versioned assets and deploy new modules before HTML entry points. Back up changed
+files and reject concurrent live changes. Do not deploy `.git`, tests, working notes or source
 complaint files into the public web root.
 
 ## Product content updates

@@ -28,7 +28,7 @@ test('keeps complaint attribution, filing dates and privacy boundaries in the re
   const html = page();
   assert.ok(html.includes('Filing an IC3 complaint does not establish FBI findings'));
   assert.ok(html.includes('Later buyers, recipients and current holders are not accused'));
-  assert.equal((html.match(/datetime="2026-10-31"/g) || []).length, 2);
+  assert.equal((html.match(/datetime="2026-10-31"/g) || []).length, 3);
   assert.ok(html.includes('datetime="2026-11-05"'));
   assert.doesNotMatch(html, /<form\b|<input\b|\.pdf["<]|\b[a-f0-9]{32}\b/i);
   const files = readdirSync(resolve(root, 'wallet-incident'), { recursive: true });
@@ -36,7 +36,7 @@ test('keeps complaint attribution, filing dates and privacy boundaries in the re
 });
 
 test('provides complete English and Turkish copy without relying on HTML injection', async () => {
-  const source = readFileSync(resolve(root, 'wallet-incident/copy-v1.js'), 'utf8');
+  const source = readFileSync(resolve(root, 'wallet-incident/copy-v2.js'), 'utf8');
   const { copy } = await import('data:text/javascript;base64,' + Buffer.from(source).toString('base64'));
   assert.deepEqual(Object.keys(copy.en).sort(), Object.keys(copy.tr).sort());
   const keys = [...page().matchAll(/data-copy="([^"]+)"/g)].map(match => match[1]);
