@@ -26,4 +26,4 @@
 - [x] Build sanitized JSON from the reconciled source privately; add generator, static register, report copy and progressive search.
 - [x] Run Node tests, source reconciliation, private-token scan and desktop/mobile browser checks.
 - [x] Review the entire branch independently, fix substantive findings and commit.
-- [ ] Publish a sealed file manifest with backups and atomic writes; verify origin/public bytes and browser behavior; push main without force.
+- [x] Publish a sealed file manifest with backups and atomic writes; verify origin/public bytes and browser behavior; push main without force.
