@@ -159,6 +159,7 @@
             'contact.website': 'Website',
 
             'footer.text': '\u00A9 2026 Ahmet Bütün. Built as a personal architecture dossier.',
+            'footer.incident': 'Wallet incident',
             'footer.buhane': 'Buhane'
         },
         tr: {
@@ -316,6 +317,7 @@
             'contact.website': 'Web Sitesi',
 
             'footer.text': '\u00A9 2026 Ahmet Bütün. Kişisel bir mimari dosya olarak üretildi.',
+            'footer.incident': 'Cüzdan olayı',
             'footer.buhane': 'Buhane'
         }
     };

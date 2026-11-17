@@ -59,6 +59,27 @@ Any static hosting provider can serve this project. Keep root-relative assets su
 
 ## Content Updates
 
+## Personal wallet incident record
+
+`/wallet-incident/` contains an English/Turkish public account, the two reported
+Suited Ape item links and an IC3 complaint summary. Its standalone language module
+shares the homepage's language preference without loading homepage metadata.
+English content remains readable without JavaScript. Private reports and tracking
+identifiers are not part of the site; only deliberately authored public facts and
+the original two NFT images belong in this directory.
+
+Run the dependency-free checks with Node.js 22 or newer:
+
+```bash
+node --test tests/wallet-incident.test.mjs
+```
+
+Publication must copy only the reviewed page assets and the updated homepage,
+language file and sitemap. Do not deploy `.git`, tests, working notes or source
+complaint files into the public web root.
+
+## Product content updates
+
 When adding or changing a product:
 
 1. Update the product row in `index.html`.
