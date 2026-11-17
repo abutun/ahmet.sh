@@ -11,6 +11,10 @@ function applyLanguage() {
     const message = messages[element.dataset.copy];
     if (message !== undefined) element.textContent = message;
   });
+  document.querySelectorAll('[data-copy-aria]').forEach(element => {
+    const message = messages[element.dataset.copyAria];
+    if (message !== undefined) element.setAttribute('aria-label', message);
+  });
   document.querySelectorAll('time[data-date]').forEach(element => {
     const date = new Date(element.dateTime + 'T12:00:00Z');
     element.textContent = new Intl.DateTimeFormat(language, {

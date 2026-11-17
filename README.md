@@ -57,8 +57,6 @@ Then open `http://localhost:3847`.
 
 Any static hosting provider can serve this project. Keep root-relative assets such as `/site.webmanifest` available from the repository root, and keep `i18n.js` loaded before `script.js`.
 
-## Content Updates
-
 ## Personal wallet incident record
 
 `/wallet-incident/` contains an English/Turkish public account, the two reported

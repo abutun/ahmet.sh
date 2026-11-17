@@ -27,7 +27,10 @@ export const copy = {
     "helpcopy": "If you hold either Ape or have verifiable information about its recovery, please contact the official Mintropolis account.",
     "contact": "Contact Mintropolis on X",
     "footer": "Personal incident record · ahmet.sh",
-    "description": "A public account of the founder’s personal wallet incident, two reported stolen Suited Apes and a privacy-safe IC3 complaint summary."
+    "description": "A public account of the founder’s personal wallet incident, two reported stolen Suited Apes and a privacy-safe IC3 complaint summary.",
+    "homeLabel": "ahmet.sh home",
+    "navLabel": "Page navigation",
+    "timelineLabel": "02 / TIMELINE"
   },
   "tr": {
     "skip": "Olay özetine geç",
@@ -57,6 +60,9 @@ export const copy = {
     "helpcopy": "Bu Ape’lerden birinin sahibiysen veya geri alınmasına ilişkin doğrulanabilir bilgin varsa lütfen resmî Mintropolis hesabıyla iletişime geç.",
     "contact": "X üzerinden Mintropolis’e ulaş",
     "footer": "Kişisel olay kaydı · ahmet.sh",
-    "description": "Kurucunun kişisel cüzdan olayına ilişkin anlatımı, çalındığı bildirilen iki Suited Ape ve kişisel bilgilerden arındırılmış IC3 başvuru özeti."
+    "description": "Kurucunun kişisel cüzdan olayına ilişkin anlatımı, çalındığı bildirilen iki Suited Ape ve kişisel bilgilerden arındırılmış IC3 başvuru özeti.",
+    "homeLabel": "ahmet.sh ana sayfa",
+    "navLabel": "Sayfa bağlantıları",
+    "timelineLabel": "02 / OLAY AKIŞI"
   }
 };
